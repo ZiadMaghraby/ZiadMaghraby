@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="300" viewBox="0 0 450 300" role="img" aria-labelledby="t"><title id="t">RECIPE APP — JAVA. Ideas, ingredients, and a little Java.</title><style>
+text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.muted{fill:#8795aa} .white{fill:#f3f4ea} .lime{fill:#d2ff5a}
+@keyframes drift{from{stroke-dashoffset:0}to{stroke-dashoffset:-96}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.flow{stroke-dasharray:7 17;animation:drift 6s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+</style><rect x="1" y="1" width="448" height="298" rx="16" fill="#111722" stroke="#303b4d"/><text x="26" y="39" class="mono" fill="#ba9aff" font-size="13">SOURCE FILE / 02</text><rect x="305" y="43" width="99" height="125" rx="13" fill="#111722" stroke="#ba9aff" transform="rotate(8 350 110)"/><rect x="292" y="52" width="99" height="125" rx="13" fill="#151b28" stroke="#ba9aff"/><path d="M312 82h57M312 101h40M312 121h52M312 141h30" stroke="#ba9aff" stroke-width="5" stroke-linecap="round"/><text x="26" y="99" class="white" font-size="24" font-weight="800">RECIPE APP</text><text x="26" y="131" class="mono" fill="#ba9aff" font-size="15">JAVA</text><text x="26" y="182" class="muted" font-size="17">Ideas, ingredients,</text><text x="26" y="207" class="muted" font-size="17">and a little Java.</text><path d="M26 237H424" stroke="#303b4d"/><text x="26" y="273" class="mono white" font-size="13">OPEN REPOSITORY</text><text x="420" y="273" text-anchor="end" fill="#ba9aff" font-size="24">↗</text></svg>

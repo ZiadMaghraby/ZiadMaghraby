@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+<title id="title">Ziad Elmaghraby — Behind the request</title><desc id="desc">Software Engineer. Backend .NET. An animated conceptual request travels through logic to a response.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#243047" stroke-width=".7"/></pattern><radialGradient id="glow"><stop stop-color="#653deb" stop-opacity=".3"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></radialGradient></defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.muted{fill:#8795aa} .white{fill:#f3f4ea} .lime{fill:#d2ff5a}
+@keyframes drift{from{stroke-dashoffset:0}to{stroke-dashoffset:-96}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.flow{stroke-dasharray:7 17;animation:drift 6s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+</style>
+<rect width="1200" height="590" rx="22" fill="#0d1117"/>
+<rect x="1" y="1" width="1198" height="588" rx="21" fill="url(#grid)" stroke="#2c3748"/>
+<ellipse cx="938" cy="280" rx="325" ry="300" fill="url(#glow)"/>
+<path d="M38 76H1162M38 511H1162" stroke="#2c3748"/>
+<rect x="40" y="25" width="39" height="30" rx="7" fill="#d2ff5a"/>
+<text x="59" y="46" text-anchor="middle" fill="#10151c" font-size="18" font-weight="800">Z.</text>
+<text x="94" y="46" class="mono white" font-size="16" letter-spacing="2">ZIAD / ENGINEERING</text>
+<circle cx="964" cy="40" r="4" fill="#d2ff5a" class="pulse"/>
+<text x="981" y="46" class="mono muted" font-size="13">PROFILE / V2.0</text>
+<text x="48" y="137" class="mono lime" font-size="14" letter-spacing="3">THE WORK YOU DON'T SEE.</text>
+<text x="43" y="230" class="white" font-size="83" font-weight="900" letter-spacing="-4">BEHIND</text>
+<text x="43" y="320" class="white" font-size="83" font-weight="900" letter-spacing="-4">THE REQUEST.</text>
+<rect x="48" y="353" width="51" height="4" rx="2" fill="#d2ff5a"/>
+<text x="48" y="404" class="white" font-size="28" font-weight="700">Ziad Elmaghraby</text>
+<text x="48" y="441" class="mono muted" font-size="18">Software Engineer · Backend .NET</text>
+<text x="48" y="475" class="muted" font-size="16">Curiosity in. Thoughtful code out.</text>
+
+<g transform="translate(782 110)">
+<text x="34" y="22" class="mono muted" font-size="12" letter-spacing="2">REQUEST LIFECYCLE / CONCEPT</text>
+<path d="M179 100V153M179 247V300" stroke="#46536c" stroke-width="2"/>
+<path d="M179 100V153M179 247V300" stroke="#d2ff5a" stroke-width="3" class="flow"/>
+<path d="M317 344H353V68H317" fill="none" stroke="#58457d" stroke-width="1.5"/>
+<path d="M317 344H353V68H317" fill="none" stroke="#aa90ff" stroke-width="2" class="flow"/>
+<rect x="27" y="45" width="290" height="62" rx="12" fill="#141c28" stroke="#38455a"/>
+<text x="46" y="83" class="mono lime" font-size="17">01</text><text x="90" y="83" class="mono white" font-size="18">REQUEST</text><text x="269" y="83" class="mono muted" font-size="20">→</text>
+<rect x="0" y="153" width="344" height="94" rx="15" fill="#201a37" stroke="#a184f6" stroke-width="1.5"/>
+<rect x="19" y="174" width="49" height="49" rx="10" fill="#a184f6"/>
+<text x="43" y="205" text-anchor="middle" fill="#13111d" font-size="20" font-weight="800">C#</text>
+<text x="88" y="193" class="white" font-size="24" font-weight="800">THE LOGIC</text><text x="88" y="220" class="mono" fill="#c1acef" font-size="15">.NET / one problem at a time</text>
+<rect x="27" y="300" width="290" height="62" rx="12" fill="#141c28" stroke="#38455a"/>
+<text x="46" y="338" class="mono lime" font-size="17">03</text><text x="90" y="338" class="mono white" font-size="18">RESPONSE</text><circle cx="283" cy="332" r="5" fill="#d2ff5a" class="pulse"/>
+</g>
+<text x="48" y="551" class="mono muted" font-size="13">C# + .NET</text><text x="255" y="551" class="mono muted" font-size="13">OOP + PROBLEM SOLVING</text><text x="1152" y="551" text-anchor="end" class="mono lime" font-size="13">EXPLORE THE SOURCE ↓</text>
+</svg>

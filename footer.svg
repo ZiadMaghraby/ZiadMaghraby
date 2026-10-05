@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="t"><title id="t">End of response. Start of a conversation.</title><style>
+text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.muted{fill:#8795aa} .white{fill:#f3f4ea} .lime{fill:#d2ff5a}
+@keyframes drift{from{stroke-dashoffset:0}to{stroke-dashoffset:-96}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.flow{stroke-dasharray:7 17;animation:drift 6s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+</style><rect x="1" y="1" width="1198" height="158" rx="18" fill="#0d1117" stroke="#303b4d"/><path d="M36 40V120M1164 40V120" stroke="#d2ff5a" stroke-width="3"/><text x="70" y="60" class="mono lime" font-size="13" letter-spacing="2">// END OF RESPONSE</text><text x="68" y="104" class="white" font-size="32" font-weight="800">Start of a conversation.</text><text x="1126" y="94" text-anchor="end" class="mono muted" font-size="20">Z. / LET'S BUILD</text></svg>

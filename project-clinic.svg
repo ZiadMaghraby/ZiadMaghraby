@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="300" viewBox="0 0 450 300" role="img" aria-labelledby="t"><title id="t">CLINIC SYSTEM — PHP. A real-world domain. A project in code.</title><style>
+text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.muted{fill:#8795aa} .white{fill:#f3f4ea} .lime{fill:#d2ff5a}
+@keyframes drift{from{stroke-dashoffset:0}to{stroke-dashoffset:-96}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.flow{stroke-dasharray:7 17;animation:drift 6s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+</style><rect x="1" y="1" width="448" height="298" rx="16" fill="#111722" stroke="#303b4d"/><text x="26" y="39" class="mono" fill="#68dce5" font-size="13">SOURCE FILE / 03</text><rect x="305" y="50" width="103" height="121" rx="15" fill="#111722" stroke="#68dce5"/><path d="M347 71h19v17h17v19h-17v17h-19v-17h-17V88h17Z" fill="#68dce5"/><path d="M322 145h16l7-10 11 20 9-10h25" fill="none" stroke="#68dce5" stroke-width="3"/><text x="26" y="99" class="white" font-size="24" font-weight="800">CLINIC SYSTEM</text><text x="26" y="131" class="mono" fill="#68dce5" font-size="15">PHP</text><text x="26" y="182" class="muted" font-size="17">A real-world domain.</text><text x="26" y="207" class="muted" font-size="17">A project in code.</text><path d="M26 237H424" stroke="#303b4d"/><text x="26" y="273" class="mono white" font-size="13">OPEN REPOSITORY</text><text x="420" y="273" text-anchor="end" fill="#68dce5" font-size="24">↗</text></svg>
