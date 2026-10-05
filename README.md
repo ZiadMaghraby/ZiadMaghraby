@@ -7,11 +7,7 @@
 
 **Choose a route into my world.**
 
-<p>
-<a href="#the-developer"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/route-me.svg" width="260" alt="Meet Ziad — jump to the developer section."></a>
-<a href="#the-stack"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/route-stack.svg" width="260" alt="Explore the stack — jump to my learning map."></a>
-<a href="#the-source"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/route-code.svg" width="260" alt="Open the source — jump to my projects."></a>
-</p>
+<p><strong><a href="#the-developer">01 / MEET ZIAD ↗</a> &nbsp; · &nbsp; <a href="#the-stack">02 / EXPLORE THE STACK ↗</a> &nbsp; · &nbsp; <a href="#the-source">03 / OPEN THE SOURCE ↗</a></strong></p>
 
 [The practice](#the-practice) &nbsp; / &nbsp; [Get in touch](#contact)
 
@@ -38,14 +34,10 @@ I’m **Ziad Elmaghraby**, a software engineering student focused on **backend d
 
 A visual map of the subjects I’ve studied through my .NET development learning journey.
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-language.svg" width="260" alt="LANGUAGE — see the complete learning map below.">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-data.svg" width="260" alt="DATA — see the complete learning map below.">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-web.svg" width="260" alt="WEB — see the complete learning map below.">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-cloud.svg" width="260" alt="CLOUD — see the complete learning map below.">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-team.svg" width="260" alt="WORKFLOW — see the complete learning map below.">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-domain.svg" width="260" alt="DOMAIN — see the complete learning map below.">
-</p>
+<picture>
+<source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/knowledge-mobile.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/knowledge-grid.svg" width="1200" alt="The knowledge map: language, data, web, cloud, workflow and domain. Full text follows below.">
+</picture>
 
 
 ### Complete learning map
