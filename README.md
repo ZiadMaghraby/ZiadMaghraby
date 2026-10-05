@@ -18,41 +18,40 @@
 ![01 / The developer — The person behind the logic.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-identity.svg)
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/developer-terminal.svg" width="400" alt="Ziad Elmaghraby: software engineer and student, focused on backend .NET, C#, OOP, SOLID and problem solving.">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-orbit.svg" width="400" alt="C# and .NET at the core; APIs, SQL, DDD and Azure in my learned stack.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/developer-terminal.svg" width="400" alt="Ziad Elmaghraby: software engineer, focused on backend .NET, C#, OOP, SOLID and problem solving.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-orbit.svg" width="400" alt="C# and .NET at the core; APIs, SQL, DDD and Azure in my technology stack.">
 </p>
 
 **You see the response. I care about what happens before it.**
 
-I’m **Ziad Elmaghraby**, a software engineering student focused on **backend development with C# and .NET**. I enjoy taking problems apart, understanding their moving pieces, and turning them into code. My learning spans C#, data access, MVC and APIs, Domain-Driven Design, and the foundations of cloud delivery. This profile brings together that learning and the public projects I can share.
+I’m **Ziad Elmaghraby**, a software engineer focused on **backend development with C# and .NET**. I enjoy taking problems apart, understanding their moving pieces, and turning them into code. My technical skills span C#, data access, MVC, APIs, Domain-Driven Design, and cloud deployment. Explore my technology stack and public projects below.
 
 <a id="the-stack"></a>
 
-![02 / The knowledge map — From language to cloud.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-stack.svg)
+![02 / Technical skills — From language to cloud.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-stack.svg)
 
-### What I’ve learned
+### Technical skills
 
-A visual map of the subjects I’ve studied through my .NET development learning journey.
+My stack for backend development, data access, software architecture, and cloud delivery.
 
 <picture>
 <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/knowledge-mobile.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/knowledge-grid.svg" width="1200" alt="The knowledge map: language, data, web, cloud, workflow and domain. Full text follows below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/knowledge-grid.svg" width="1200" alt="Technical skills: language, data, web, cloud, workflow and domain. Full text follows below.">
 </picture>
 
 
-### Complete learning map
+### Skills & technologies
 
-| Area | Topics studied |
+| Area | Skills |
 | :--- | :--- |
-| Getting started | Orientation; Git & GitHub. |
-| C# & design | C# basics; advanced C#; OOP; SOLID; testing; LINQ. |
+| Languages & design | C#; advanced C#; object-oriented programming; SOLID; LINQ; testing. |
 | Databases & data access | SQL; NoSQL; ADO.NET; Dapper; Entity Framework. |
-| Application development | .NET fundamentals; MVC and its project track; APIs. |
-| Architecture & domains | Domain-Driven Design; logistics SaaS concepts; introductory microservices. |
-| Cloud & delivery | Azure fundamentals; deployment strategies; CI/CD. |
-| Team projects | Agile teamwork and graduation project practices. |
-
-Java and PHP also appear in my public projects.
+| Backend development | .NET; MVC; API development. |
+| Software architecture | Domain-Driven Design; domain modeling; microservices. |
+| Cloud & DevOps | Microsoft Azure; deployment strategies; CI/CD. |
+| Tools & collaboration | Git; GitHub; version control; Agile development; teamwork. |
+| Business applications | Logistics SaaS. |
+| Additional languages | Java; PHP. |
 
 
 
@@ -69,12 +68,12 @@ Java and PHP also appear in my public projects.
 <p align="center"><a href="https://github.com/ZiadMaghraby/calculator">Calculator · C#</a> &nbsp; / &nbsp; <a href="https://github.com/ZiadMaghraby/recipeApp">Recipe App · Java</a> &nbsp; / &nbsp; <a href="https://github.com/ZiadMaghraby/clinic_system">Clinic System · PHP</a></p>
 
 
-### The workbench — coursework & foundations
+### More projects & source code
 
 | Source | Focus |
 | :--- | :--- |
-| [OOP / Assignment 01](https://github.com/ZiadMaghraby/ZiadMaghraby-OOP-Assignment-1) | Object-oriented programming coursework. |
-| [OOP / Assignment 03](https://github.com/ZiadMaghraby/ZiadMaghraby-OOP-Assignment-3) | More object-oriented programming practice. |
+| [OOP / Assignment 01](https://github.com/ZiadMaghraby/ZiadMaghraby-OOP-Assignment-1) | Object-oriented programming. |
+| [OOP / Assignment 03](https://github.com/ZiadMaghraby/ZiadMaghraby-OOP-Assignment-3) | Object-oriented design and implementation. |
 | [Git / Assignment 01](https://github.com/ZiadMaghraby/ZiadMaghraby-Assignment-1-Git) | Repository workflows and version control. |
 
 
