@@ -1,29 +1,72 @@
 <div align="center">
 
-![Ziad Elmaghraby — Behind the request. Software Engineer / Backend .NET.](./hero-cinematic.png)
+<picture>
+<source media="(max-width: 600px)" srcset="./identity-mobile.svg">
+<img src="./identity-live.svg" width="1200" alt="Ziad Elmaghraby — Software Engineer. Backend .NET. Code with intent.">
+</picture>
 
-![Ziad engineering — C# and .NET backend focus. Think. Build. Refine.](./signal.svg)
+**Choose a route into my world.**
 
-**[THE DEVELOPER](#the-developer)** &nbsp; / &nbsp; **[THE SOURCE](#the-source)** &nbsp; / &nbsp; **[THE PRACTICE](#the-practice)** &nbsp; / &nbsp; **[CONTACT](#contact)**
+<p>
+<a href="#the-developer"><img src="./route-me.svg" width="260" alt="Meet Ziad — jump to the developer section."></a>
+<a href="#the-stack"><img src="./route-stack.svg" width="260" alt="Explore the stack — jump to my learning map."></a>
+<a href="#the-source"><img src="./route-code.svg" width="260" alt="Open the source — jump to my projects."></a>
+</p>
+
+[The practice](#the-practice) &nbsp; / &nbsp; [Get in touch](#contact)
 
 </div>
 
 <a id="the-developer"></a>
 
-![01 / The developer — Meet the mind behind the code.](./chapter-identity.svg)
+![01 / The developer — The person behind the logic.](./chapter-identity.svg)
 
 <p align="center">
-<img src="./developer-terminal.svg" width="400" alt="Ziad Elmaghraby: software engineer and student, focused on backend .NET, C#, OOP and problem solving.">
-<img src="./stack-orbit.svg" width="400" alt="C# and .NET at the core; Java, PHP, Git and GitHub in my projects.">
+<img src="./developer-terminal.svg" width="400" alt="Ziad Elmaghraby: software engineer and student, focused on backend .NET, C#, OOP, SOLID and problem solving.">
+<img src="./stack-orbit.svg" width="400" alt="C# and .NET at the core; APIs, SQL, DDD and Azure in my learned stack.">
 </p>
 
 **You see the response. I care about what happens before it.**
 
-I’m **Ziad Elmaghraby**, a software engineering student focused on **backend development with C# and .NET**. I enjoy taking problems apart, understanding their moving pieces, and turning them into code. This profile is a window into my projects, coursework, and progress.
+I’m **Ziad Elmaghraby**, a software engineering student focused on **backend development with C# and .NET**. I enjoy taking problems apart, understanding their moving pieces, and turning them into code. My learning spans C#, data access, MVC and APIs, Domain-Driven Design, and the foundations of cloud delivery. This profile brings together that learning and the public projects I can share.
+
+<a id="the-stack"></a>
+
+![02 / The knowledge map — From language to cloud.](./chapter-stack.svg)
+
+### What I’ve learned
+
+A visual map of the subjects I’ve studied through my .NET development learning journey.
+
+<p align="center">
+<img src="./stack-language.svg" width="260" alt="LANGUAGE — see the complete learning map below.">
+<img src="./stack-data.svg" width="260" alt="DATA — see the complete learning map below.">
+<img src="./stack-web.svg" width="260" alt="WEB — see the complete learning map below.">
+<img src="./stack-cloud.svg" width="260" alt="CLOUD — see the complete learning map below.">
+<img src="./stack-team.svg" width="260" alt="WORKFLOW — see the complete learning map below.">
+<img src="./stack-domain.svg" width="260" alt="DOMAIN — see the complete learning map below.">
+</p>
+
+<details>
+<summary><strong>＋ Read the complete learning map</strong></summary>
+
+| Area | Topics studied |
+| :--- | :--- |
+| Getting started | Orientation; Git & GitHub. |
+| C# & design | C# basics; advanced C#; OOP; SOLID; testing; LINQ. |
+| Databases & data access | SQL; NoSQL; ADO.NET; Dapper; Entity Framework. |
+| Application development | .NET fundamentals; MVC and its project track; APIs. |
+| Architecture & domains | Domain-Driven Design; logistics SaaS concepts; introductory microservices. |
+| Cloud & delivery | Azure fundamentals; deployment strategies; CI/CD. |
+| Team projects | Agile teamwork and graduation project practices. |
+
+Java and PHP also appear in my public projects.
+
+</details>
 
 <a id="the-source"></a>
 
-![02 / The source — Selected projects. Open the code.](./chapter-source.svg)
+![03 / The source — Ideas you can open.](./chapter-source.svg)
 
 <p align="center">
 <a href="https://github.com/ZiadMaghraby/calculator"><img src="./calc-v3.svg" width="260" alt="CALCULATOR — C# / .NET. Open repository."></a>
@@ -48,7 +91,7 @@ I’m **Ziad Elmaghraby**, a software engineering student focused on **backend d
 
 <a id="the-practice"></a>
 
-![03 / The practice — Curiosity is the engine.](./chapter-loop.svg)
+![04 / The practice — Curiosity is the engine.](./chapter-loop.svg)
 
 <p align="center">
 <img src="./practice-engine.svg" width="400" alt="My practice loop: understand, decompose, implement, refine.">
@@ -69,9 +112,16 @@ I’m **Ziad Elmaghraby**, a software engineering student focused on **backend d
 
 </details>
 
+<details>
+<summary><strong>⌁ There’s a comment hidden behind the code.</strong></summary>
+
+![The most interesting part is the thinking. Understand the problem. Make the solution clear. Keep improving.](./hidden-note.svg)
+
+</details>
+
 <a id="contact"></a>
 
-![04 / Open a channel — Let’s build something.](./chapter-contact.svg)
+![05 / Open a channel — The next idea starts here.](./chapter-contact.svg)
 
 Have a project, a question, or an interesting backend problem? **Let’s talk.**
 
