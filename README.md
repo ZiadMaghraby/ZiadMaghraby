@@ -47,8 +47,8 @@ A visual map of the subjects I’ve studied through my .NET development learning
 <img src="./stack-domain.svg" width="260" alt="DOMAIN — see the complete learning map below.">
 </p>
 
-<details>
-<summary><strong>＋ Read the complete learning map</strong></summary>
+
+### Complete learning map
 
 | Area | Topics studied |
 | :--- | :--- |
@@ -62,7 +62,7 @@ A visual map of the subjects I’ve studied through my .NET development learning
 
 Java and PHP also appear in my public projects.
 
-</details>
+
 
 <a id="the-source"></a>
 
@@ -76,8 +76,8 @@ Java and PHP also appear in my public projects.
 
 <p align="center"><a href="https://github.com/ZiadMaghraby/calculator">Calculator · C#</a> &nbsp; / &nbsp; <a href="https://github.com/ZiadMaghraby/recipeApp">Recipe App · Java</a> &nbsp; / &nbsp; <a href="https://github.com/ZiadMaghraby/clinic_system">Clinic System · PHP</a></p>
 
-<details>
-<summary><strong>＋ Open the workbench — coursework & foundations</strong></summary>
+
+### The workbench — coursework & foundations
 
 | Source | Focus |
 | :--- | :--- |
@@ -85,7 +85,7 @@ Java and PHP also appear in my public projects.
 | [OOP / Assignment 03](https://github.com/ZiadMaghraby/ZiadMaghraby-OOP-Assignment-3) | More object-oriented programming practice. |
 | [Git / Assignment 01](https://github.com/ZiadMaghraby/ZiadMaghraby-Assignment-1-Git) | Repository workflows and version control. |
 
-</details>
+
 
 <p align="right"><a href="https://github.com/ZiadMaghraby?tab=repositories"><strong>EXPLORE ALL REPOSITORIES →</strong></a></p>
 
@@ -100,8 +100,8 @@ Java and PHP also appear in my public projects.
 
 <p align="center"><strong><a href="https://leetcode.com/u/ZiadMaghraby/">LEETCODE ↗</a> &nbsp; / &nbsp; <a href="https://codeforces.com/profile/ZiadMaghraby">CODEFORCES ↗</a></strong></p>
 
-<details>
-<summary><strong>＋ Inspect GitHub activity</strong></summary>
+
+### GitHub activity
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=ZiadMaghraby&show_icons=true&hide_border=true&bg_color=0d1117&title_color=d2ff5a&text_color=c9d1d9&icon_color=ba9aff&rank_icon=github" width="480" alt="Public GitHub activity for ZiadMaghraby">
@@ -110,14 +110,14 @@ Java and PHP also appear in my public projects.
 
 [View contribution history](https://github.com/ZiadMaghraby?tab=overview)
 
-</details>
 
-<details>
-<summary><strong>⌁ There’s a comment hidden behind the code.</strong></summary>
+
+
+### The thinking behind the code
 
 ![The most interesting part is the thinking. Understand the problem. Make the solution clear. Keep improving.](./hidden-note.svg)
 
-</details>
+
 
 <a id="contact"></a>
 
