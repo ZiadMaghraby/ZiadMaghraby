@@ -1,16 +1,16 @@
 <div align="center">
 
 <picture>
-<source media="(max-width: 600px)" srcset="./identity-mobile.svg">
-<img src="./identity-live.svg" width="1200" alt="Ziad Elmaghraby — Software Engineer. Backend .NET. Code with intent.">
+<source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/identity-mobile.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/identity-live.svg" width="1200" alt="Ziad Elmaghraby — Software Engineer. Backend .NET. Code with intent.">
 </picture>
 
 **Choose a route into my world.**
 
 <p>
-<a href="#the-developer"><img src="./route-me.svg" width="260" alt="Meet Ziad — jump to the developer section."></a>
-<a href="#the-stack"><img src="./route-stack.svg" width="260" alt="Explore the stack — jump to my learning map."></a>
-<a href="#the-source"><img src="./route-code.svg" width="260" alt="Open the source — jump to my projects."></a>
+<a href="#the-developer"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/route-me.svg" width="260" alt="Meet Ziad — jump to the developer section."></a>
+<a href="#the-stack"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/route-stack.svg" width="260" alt="Explore the stack — jump to my learning map."></a>
+<a href="#the-source"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/route-code.svg" width="260" alt="Open the source — jump to my projects."></a>
 </p>
 
 [The practice](#the-practice) &nbsp; / &nbsp; [Get in touch](#contact)
@@ -19,11 +19,11 @@
 
 <a id="the-developer"></a>
 
-![01 / The developer — The person behind the logic.](./chapter-identity.svg)
+![01 / The developer — The person behind the logic.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-identity.svg)
 
 <p align="center">
-<img src="./developer-terminal.svg" width="400" alt="Ziad Elmaghraby: software engineer and student, focused on backend .NET, C#, OOP, SOLID and problem solving.">
-<img src="./stack-orbit.svg" width="400" alt="C# and .NET at the core; APIs, SQL, DDD and Azure in my learned stack.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/developer-terminal.svg" width="400" alt="Ziad Elmaghraby: software engineer and student, focused on backend .NET, C#, OOP, SOLID and problem solving.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-orbit.svg" width="400" alt="C# and .NET at the core; APIs, SQL, DDD and Azure in my learned stack.">
 </p>
 
 **You see the response. I care about what happens before it.**
@@ -32,19 +32,19 @@ I’m **Ziad Elmaghraby**, a software engineering student focused on **backend d
 
 <a id="the-stack"></a>
 
-![02 / The knowledge map — From language to cloud.](./chapter-stack.svg)
+![02 / The knowledge map — From language to cloud.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-stack.svg)
 
 ### What I’ve learned
 
 A visual map of the subjects I’ve studied through my .NET development learning journey.
 
 <p align="center">
-<img src="./stack-language.svg" width="260" alt="LANGUAGE — see the complete learning map below.">
-<img src="./stack-data.svg" width="260" alt="DATA — see the complete learning map below.">
-<img src="./stack-web.svg" width="260" alt="WEB — see the complete learning map below.">
-<img src="./stack-cloud.svg" width="260" alt="CLOUD — see the complete learning map below.">
-<img src="./stack-team.svg" width="260" alt="WORKFLOW — see the complete learning map below.">
-<img src="./stack-domain.svg" width="260" alt="DOMAIN — see the complete learning map below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-language.svg" width="260" alt="LANGUAGE — see the complete learning map below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-data.svg" width="260" alt="DATA — see the complete learning map below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-web.svg" width="260" alt="WEB — see the complete learning map below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-cloud.svg" width="260" alt="CLOUD — see the complete learning map below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-team.svg" width="260" alt="WORKFLOW — see the complete learning map below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/stack-domain.svg" width="260" alt="DOMAIN — see the complete learning map below.">
 </p>
 
 
@@ -66,12 +66,12 @@ Java and PHP also appear in my public projects.
 
 <a id="the-source"></a>
 
-![03 / The source — Ideas you can open.](./chapter-source.svg)
+![03 / The source — Ideas you can open.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-source.svg)
 
 <p align="center">
-<a href="https://github.com/ZiadMaghraby/calculator"><img src="./calc-v3.svg" width="260" alt="CALCULATOR — C# / .NET. Open repository."></a>
-<a href="https://github.com/ZiadMaghraby/recipeApp"><img src="./recipes-v3.svg" width="260" alt="RECIPE APP — JAVA. Open repository."></a>
-<a href="https://github.com/ZiadMaghraby/clinic_system"><img src="./clinic-v3.svg" width="260" alt="CLINIC SYSTEM — PHP. Open repository."></a>
+<a href="https://github.com/ZiadMaghraby/calculator"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/calc-v3.svg" width="260" alt="CALCULATOR — C# / .NET. Open repository."></a>
+<a href="https://github.com/ZiadMaghraby/recipeApp"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/recipes-v3.svg" width="260" alt="RECIPE APP — JAVA. Open repository."></a>
+<a href="https://github.com/ZiadMaghraby/clinic_system"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/clinic-v3.svg" width="260" alt="CLINIC SYSTEM — PHP. Open repository."></a>
 </p>
 
 <p align="center"><a href="https://github.com/ZiadMaghraby/calculator">Calculator · C#</a> &nbsp; / &nbsp; <a href="https://github.com/ZiadMaghraby/recipeApp">Recipe App · Java</a> &nbsp; / &nbsp; <a href="https://github.com/ZiadMaghraby/clinic_system">Clinic System · PHP</a></p>
@@ -91,11 +91,11 @@ Java and PHP also appear in my public projects.
 
 <a id="the-practice"></a>
 
-![04 / The practice — Curiosity is the engine.](./chapter-loop.svg)
+![04 / The practice — Curiosity is the engine.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-loop.svg)
 
 <p align="center">
-<img src="./practice-engine.svg" width="400" alt="My practice loop: understand, decompose, implement, refine.">
-<img src="./practice-links.svg" width="400" alt="Think deeper. Build better. Find my profiles on LeetCode and Codeforces using the links below.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/practice-engine.svg" width="400" alt="My practice loop: understand, decompose, implement, refine.">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/practice-links.svg" width="400" alt="Think deeper. Build better. Find my profiles on LeetCode and Codeforces using the links below.">
 </p>
 
 <p align="center"><strong><a href="https://leetcode.com/u/ZiadMaghraby/">LEETCODE ↗</a> &nbsp; / &nbsp; <a href="https://codeforces.com/profile/ZiadMaghraby">CODEFORCES ↗</a></strong></p>
@@ -115,21 +115,21 @@ Java and PHP also appear in my public projects.
 
 ### The thinking behind the code
 
-![The most interesting part is the thinking. Understand the problem. Make the solution clear. Keep improving.](./hidden-note.svg)
+![The most interesting part is the thinking. Understand the problem. Make the solution clear. Keep improving.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/hidden-note.svg)
 
 
 
 <a id="contact"></a>
 
-![05 / Open a channel — The next idea starts here.](./chapter-contact.svg)
+![05 / Open a channel — The next idea starts here.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/chapter-contact.svg)
 
 Have a project, a question, or an interesting backend problem? **Let’s talk.**
 
 <p align="center">
-<a href="https://www.linkedin.com/in/ziadmaghraby/"><img src="./contact-linkedin.svg" width="390" alt="Connect with Ziad on LinkedIn."></a>
-<a href="mailto:ziadelmaghraby0@gmail.com"><img src="./contact-email.svg" width="390" alt="Email Ziad: ziadelmaghraby0@gmail.com."></a>
+<a href="https://www.linkedin.com/in/ziadmaghraby/"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/contact-linkedin.svg" width="390" alt="Connect with Ziad on LinkedIn."></a>
+<a href="mailto:ziadelmaghraby0@gmail.com"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/contact-email.svg" width="390" alt="Email Ziad: ziadelmaghraby0@gmail.com."></a>
 </p>
 
 <p align="center">ziadelmaghraby0@gmail.com</p>
 
-![End of transmission. The next idea starts with a conversation.](./end-transmission.svg)
+![End of transmission. The next idea starts with a conversation.](https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/end-transmission.svg)
