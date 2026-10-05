@@ -86,10 +86,14 @@ My stack for backend development, data access, software architecture, and cloud 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/practice-engine.svg" width="400" alt="My practice loop: understand, decompose, implement, refine.">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/practice-links.svg" width="400" alt="Think deeper. Build better. Find my profiles on LeetCode and Codeforces using the links below.">
 </p>
 
-<p align="center"><strong><a href="https://leetcode.com/u/ZiadMaghraby/">LEETCODE ↗</a> &nbsp; / &nbsp; <a href="https://codeforces.com/profile/ZiadMaghraby">CODEFORCES ↗</a></strong></p>
+<p align="center"><strong>THINK DEEPER. BUILD BETTER.</strong></p>
+
+<p align="center">
+<a href="https://leetcode.com/u/ZiadMaghraby/"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/leetcode-link.svg" width="390" alt="Open ZiadMaghraby on LeetCode"></a>
+<a href="https://codeforces.com/profile/ZiadMaghraby"><img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-link.svg" width="390" alt="Open ZiadMaghraby on Codeforces"></a>
+</p>
 
 
 ### GitHub activity
