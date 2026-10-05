@@ -1,6 +1,9 @@
 <div align="center">
 
-![Ziad Elmaghraby — Behind the request. Software Engineer · Backend .NET.](./hero.svg)
+<picture>
+<source media="(max-width: 600px)" srcset="./hero-mobile.svg">
+<img src="./hero.svg" alt="Ziad Elmaghraby — Behind the request. Software Engineer · Backend .NET." width="1200">
+</picture>
 
 **[The developer](#01--the-developer)** &nbsp; / &nbsp; **[The toolkit](#02--the-toolkit)** &nbsp; / &nbsp; **[The source](#03--the-source)** &nbsp; / &nbsp; **[Get in touch](#05--open-a-channel)**
 
@@ -49,13 +52,11 @@ var developer = new
 
 **Three projects. Three different corners of my code.**
 
-<table>
-<tr>
-<td width="33%"><a href="https://github.com/ZiadMaghraby/calculator"><img src="./project-calculator.svg" width="100%" alt="Calculator — C# and .NET. Open repository." /></a></td>
-<td width="33%"><a href="https://github.com/ZiadMaghraby/recipeApp"><img src="./project-recipes.svg" width="100%" alt="Recipe App — Java. Open repository." /></a></td>
-<td width="33%"><a href="https://github.com/ZiadMaghraby/clinic_system"><img src="./project-clinic.svg" width="100%" alt="Clinic System — PHP. Open repository." /></a></td>
-</tr>
-</table>
+<p align="center">
+<a href="https://github.com/ZiadMaghraby/calculator"><img src="./project-calculator.svg" width="260" alt="Calculator — C# and .NET. Open repository." /></a>
+<a href="https://github.com/ZiadMaghraby/recipeApp"><img src="./project-recipes.svg" width="260" alt="Recipe App — Java. Open repository." /></a>
+<a href="https://github.com/ZiadMaghraby/clinic_system"><img src="./project-clinic.svg" width="260" alt="Clinic System — PHP. Open repository." /></a>
+</p>
 
 <details>
 <summary><strong>Open the workbench — coursework & foundations</strong></summary>
