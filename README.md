@@ -9,21 +9,15 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 
 [LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby)
 
-[Projects](#selected-projects) &nbsp; / &nbsp; [Skills](#technical-skills) &nbsp; / &nbsp; [Contributions](#js-contribution-activity-description)
+[Projects](#featured-projects) &nbsp; / &nbsp; [Skills](#technical-skills) &nbsp; / &nbsp; [Contributions](#js-contribution-activity-description)
 
-### Selected projects
+### Featured Projects
 
-**[Calculator ↗](https://github.com/ZiadMaghraby/calculator)** &nbsp; <code>C#</code> <code>.NET</code>
-
-A console calculator with arithmetic operations, numeric input validation, and division-by-zero handling.
-
-**[Clinic System ↗](https://github.com/ZiadMaghraby/clinic_system)** &nbsp; <code>PHP</code> <code>Laravel</code> <code>Blade</code>
-
-A collaborative clinic application with administrative routes for doctors, patients, appointments, and invoices.
-
-**[Recipe App ↗](https://github.com/ZiadMaghraby/recipeApp)** &nbsp; <code>Java</code> <code>Gradle</code>
-
-A recipe application project with a Java codebase and Gradle build configuration.
+| Projects | Stars | Forks |
+| :--- | :---: | :---: |
+| **[Calculator](https://github.com/ZiadMaghraby/calculator)** — C#/.NET console calculator with input validation and division-by-zero handling. | [![Stars](https://img.shields.io/github/stars/ZiadMaghraby/calculator?style=for-the-badge&labelColor=58A6FF&color=1F6FEB)](https://github.com/ZiadMaghraby/calculator/stargazers) | [![Forks](https://img.shields.io/github/forks/ZiadMaghraby/calculator?style=for-the-badge&labelColor=58A6FF&color=1F6FEB)](https://github.com/ZiadMaghraby/calculator/forks) |
+| **[Clinic System](https://github.com/ZiadMaghraby/clinic_system)** — Collaborative PHP/Laravel clinic application for doctors, patients, appointments, and invoices. | [![Stars](https://img.shields.io/github/stars/ZiadMaghraby/clinic_system?style=for-the-badge&labelColor=58A6FF&color=1F6FEB)](https://github.com/ZiadMaghraby/clinic_system/stargazers) | [![Forks](https://img.shields.io/github/forks/ZiadMaghraby/clinic_system?style=for-the-badge&labelColor=58A6FF&color=1F6FEB)](https://github.com/ZiadMaghraby/clinic_system/forks) |
+| **[Recipe App](https://github.com/ZiadMaghraby/recipeApp)** — Java recipe application with Gradle build configuration. | [![Stars](https://img.shields.io/github/stars/ZiadMaghraby/recipeApp?style=for-the-badge&labelColor=58A6FF&color=1F6FEB)](https://github.com/ZiadMaghraby/recipeApp/stargazers) | [![Forks](https://img.shields.io/github/forks/ZiadMaghraby/recipeApp?style=for-the-badge&labelColor=58A6FF&color=1F6FEB)](https://github.com/ZiadMaghraby/recipeApp/forks) |
 
 [Explore all repositories →](https://github.com/ZiadMaghraby?tab=repositories)
 
@@ -38,6 +32,13 @@ A recipe application project with a Java codebase and Gradle build configuration
 | **Cloud & delivery** | Microsoft Azure, deployment strategies, CI/CD |
 | **Collaboration** | Git, GitHub, version control, Agile development, teamwork |
 | **Business domains** | Logistics SaaS |
+
+### GitHub Stats
+
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=ZiadMaghraby&theme=github-dark-blue&hide_border=true&card_width=795&disable_animations=true">
+<img src="https://streak-stats.demolab.com/?user=ZiadMaghraby&theme=default&hide_border=true&card_width=795&disable_animations=true&ring=1F6FEB&fire=1F6FEB&currStreakNum=1F2328&sideNums=1F6FEB&currStreakLabel=1F2328&sideLabels=59636E&dates=59636E&stroke=D1D9E0" width="795" alt="Ziad Elmaghraby's total contributions, current streak, and longest streak">
+</picture>
 
 ---
 
