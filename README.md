@@ -1,6 +1,8 @@
 <picture>
-<source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-mobile.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-refined.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
+<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-dark-mobile.svg">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-dark.svg">
+<source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-light-mobile.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-light.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
 </picture>
 
 I’m a software engineer focused on **C# and .NET backend development**. I care about clear application boundaries, thoughtful data access, and code that is easy to understand and maintain.
