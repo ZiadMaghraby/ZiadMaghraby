@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="190" viewBox="0 0 960 190" role="img" aria-labelledby="title desc">
+<title id="title">Ziad Elmaghraby — Software Engineer · Backend .NET</title>
+<desc id="desc">A restrained engineering signature with three connected layers representing interface, logic and data.</desc>
+<rect x="1" y="1" width="958" height="188" rx="12" fill="#101820" stroke="#293440"/>
+<path d="M32 42V148" stroke="#70b7aa" stroke-width="3"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="54" y="49" fill="#70b7aa" font-size="13" letter-spacing="2.5">SOFTWARE ENGINEER / BACKEND .NET</text>
+<text x="51" y="105" fill="#f0f3f6" font-size="44" font-weight="700" letter-spacing="-1">Ziad Elmaghraby</text>
+<text x="54" y="142" fill="#a7b4c1" font-size="18">Clear design. Thoughtful implementation.</text>
+</g>
+<g fill="none" stroke="#425a65" stroke-width="1.5">
+<path d="M711 48L788 20L865 48L788 77Z M711 80L788 109L865 80 M711 112L788 141L865 112"/>
+<path d="M711 48V112M865 48V112M788 77V141" stroke-dasharray="3 5"/>
+</g>
+<path d="M711 80L788 109L865 80" fill="none" stroke="#70b7aa" stroke-width="2"/>
+<circle cx="788" cy="109" r="4" fill="#70b7aa"/>
+<text x="788" y="171" fill="#8da1ae" font-family="Consolas,monospace" font-size="11" text-anchor="middle" letter-spacing="2">INTERFACE / LOGIC / DATA</text>
+</svg>
