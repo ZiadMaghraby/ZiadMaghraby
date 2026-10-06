@@ -1,7 +1,5 @@
 <picture>
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-v2-dark-mobile.svg">
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-v2-dark.svg">
-<source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-light-mobile.svg">
 <img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/signature-light.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
 </picture>
 
