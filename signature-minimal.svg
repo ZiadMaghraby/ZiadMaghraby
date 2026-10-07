@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="176" viewBox="0 0 960 176" role="img" aria-labelledby="title desc">
   <title id="title">Ziad Elmaghraby — Software Engineer · Backend .NET</title>
-  <desc id="desc">A clean vector Ziad signature, written from left to right: Z, i, a, d.</desc>
+  <desc id="desc">Ziad personal signature, preserving the original sweeping Z and compact lettering.</desc>
   <style>
     .name{fill:#447fae}.muted{fill:#77818d}.track{stroke:#77818d;stroke-opacity:.3}.accent{stroke:#447fae}
     .ink{stroke-dasharray:1;stroke-dashoffset:0;animation-duration:10s;animation-timing-function:linear;animation-iteration-count:infinite}
@@ -19,12 +19,11 @@
   </g>
   <path d="M11 143H49" class="accent" stroke-width="3" stroke-linecap="round"/>
   <path d="M58 143H124" class="track" stroke-width="2" stroke-linecap="round"/>
-  <g transform="translate(714 29)" fill="none" stroke="#447fae" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <path class="ink z" pathLength="1" d="M14 28 Q37 18 66 25 L16 81 Q39 74 67 78"/>
-    <path class="ink i" pathLength="1" d="M85 47 L78 71 Q75 81 89 76"/>
-    <path class="ink idot" pathLength="1" stroke-width="5" d="M89 32 L89.2 31.8"/>
-    <path class="ink a" pathLength="1" d="M125 51 C113 40 99 52 98 66 C97 85 116 82 123 61 L127 47 L121 71 Q119 81 133 76"/>
-    <path class="ink d" pathLength="1" d="M168 51 C157 40 141 52 140 66 C139 84 156 83 164 63 L178 22 L165 70 Q162 82 179 76"/>
-    <path class="ink underline" pathLength="1" stroke-width="1.8" d="M11 99 C57 91 130 96 181 90"/>
+  <g transform="translate(805 85) scale(.43) rotate(50) translate(-400 -650)" fill="none" stroke="#447fae" stroke-linecap="round" stroke-linejoin="round">
+    <path class="ink z" pathLength="1" stroke-width="6.5" d="M341 611 C336 618 351 623 371 577 C366 600 375 630 369 657 C389 618 419 581 436 597 C460 622 434 711 408 759 C380 811 348 853 318 861 C293 868 337 780 379 717 C419 661 454 607 478 558 C484 547 486 539 483 536"/>
+    <path class="ink i" pathLength="1" stroke-width="8" d="M418 550 C422 562 427 576 433 566 C440 555 443 539 440 531"/>
+    <path class="ink idot" pathLength="1" stroke-width="9" d="M399 520 L398 524"/>
+    <path class="ink a" pathLength="1" stroke-width="7" d="M452 514 C441 504 435 518 441 529 C448 540 459 524 458 509 C454 520 458 529 466 520"/>
+    <path class="ink d" pathLength="1" stroke-width="7" d="M466 500 C456 493 451 505 456 515 C462 527 474 511 469 492 C465 473 454 455 451 442 C454 459 464 482 466 500 C468 510 473 504 474 498"/>
   </g>
 </svg>
