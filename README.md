@@ -35,8 +35,8 @@ C# · C++ · Java · PHP · JavaScript
 #### GitHub
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-dark.svg?v=69eb6815c1f3">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-light.svg?v=69eb6815c1f3" width="795" alt="GitHub contributions and streaks over the last 12 months">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-dark.svg?v=4abba5fe7d8b">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-light.svg?v=4abba5fe7d8b" width="795" alt="GitHub contributions and streaks over the last 12 months">
 </picture>
 
 #### Codeforces
