@@ -62,9 +62,16 @@ async function codeforces() {
       const date=iso((s.creationTimeSeconds+offset*3600)*1000);
       daily[date]=(daily[date]||0)+1;
     }
-    const mismatches=Object.entries(reference).filter(([d,n])=>Math.min(4,daily[d]||0)!==n);
+    const mismatches=Object.entries(reference).filter(([d,n])=>((daily[d]||0)===0?0:Math.min(4,daily[d]+1))!==n);
     console.log(JSON.stringify({mode,offset,total:Object.values(daily).reduce((a,b)=>a+b,0),active:Object.keys(daily).length,mismatches:mismatches.length,examples:mismatches.slice(0,8)}));
   }
+  console.log('DAILY_ALL='+JSON.stringify(counts));
+  try {
+    const res=await fetch('https://codeforces.com/profile/'+handle,{signal:AbortSignal.timeout(30000)});
+    const html=await res.text();
+    console.log('PROFILE_HTML',res.status,html.length);
+    console.log(html.split('\n').filter(line=>/activity|calendar|Activity|Calendar/.test(line)).join('\n').slice(0,14000));
+  } catch(error) { console.log(error.message); }
   return counts;
 }
 async function leetcode() {
