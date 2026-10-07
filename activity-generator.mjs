@@ -12,6 +12,7 @@ async function json(url, options = {}) {
 }
 function chart(platform, values, theme) {
   const dark = theme === 'dark';
+  const unit = platform === 'Monkeytype' ? 'typing tests' : 'submissions';
   const colors = dark ? ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'] : ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
   const text = dark ? '#c9d1d9' : '#57606a';
   const border = dark ? '#30363d' : '#d0d7de';
@@ -26,14 +27,14 @@ function chart(platform, values, theme) {
     total += n; if (n) active++;
     const level = n === 0 ? 0 : n < 3 ? 1 : n < 6 ? 2 : n < 10 ? 3 : 4;
     const x = left + Math.floor(i / 7) * step, y = 53 + date.getUTCDay() * step;
-    cells += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="2" fill="${colors[level]}" stroke="${border}" stroke-opacity=".35"><title>${n} submissions on ${iso(date)}</title></rect>`;
+    cells += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="2" fill="${colors[level]}" stroke="${border}" stroke-opacity=".35"><title>${n} ${unit} on ${iso(date)}</title></rect>`;
     if (date.getUTCMonth() !== lastMonth && date.getUTCDate() < 8) {
       months += `<text x="${x}" y="43">${date.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' })}</text>`;
       lastMonth = date.getUTCMonth();
     }
   }
   const legend = colors.map((c, i) => `<rect x="${647 + i * 13}" y="157" width="10" height="10" rx="2" fill="${c}"/>`).join('');
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="780" height="192" viewBox="0 0 780 192" role="img"><title>${platform}: ${total} submissions in the last year</title><rect x=".5" y=".5" width="779" height="191" rx="6" fill="${dark ? '#0d1117' : '#ffffff'}" stroke="${border}"/><g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" fill="${text}" font-size="11"><text x="16" y="23" font-size="14">${total.toLocaleString('en-US')} ${platform} submissions in the last year</text>${months}<text x="15" y="77">Mon</text><text x="15" y="103">Wed</text><text x="15" y="129">Fri</text>${cells}<text x="44" y="166">${active} active days · ${iso(start)} – ${iso(today)} · UTC</text><text x="615" y="166">Less</text>${legend}<text x="720" y="166">More</text></g></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="780" height="192" viewBox="0 0 780 192" role="img"><title>${platform}: ${total} ${unit} in the last year</title><rect x=".5" y=".5" width="779" height="191" rx="6" fill="${dark ? '#0d1117' : '#ffffff'}" stroke="${border}"/><g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" fill="${text}" font-size="11"><text x="16" y="23" font-size="14">${total.toLocaleString('en-US')} ${platform} ${unit} in the last year</text>${months}<text x="15" y="77">Mon</text><text x="15" y="103">Wed</text><text x="15" y="129">Fri</text>${cells}<text x="44" y="166">${active} active days · ${iso(start)} – ${iso(today)} · UTC</text><text x="615" y="166">Less</text>${legend}<text x="720" y="166">More</text></g></svg>`;
 }
 async function codeforces() {
   const counts = {};
@@ -62,14 +63,28 @@ async function leetcode() {
   }
   return counts;
 }
+async function monkeytype() {
+  const response = await json('https://api.monkeytype.com/users/' + handle + '/profile');
+  const activity = response.data?.testActivity;
+  if (!activity || !Array.isArray(activity.testsByDays) || !Number.isFinite(activity.lastDay)) throw new Error('Monkeytype public activity is unavailable');
+  const last = new Date(activity.lastDay); last.setUTCHours(0, 0, 0, 0);
+  if (!Number.isFinite(last.getTime())) throw new Error('Invalid Monkeytype calendar date');
+  const counts = {};
+  activity.testsByDays.forEach((value, index) => {
+    const count = value == null ? 0 : Number(value);
+    if (!Number.isInteger(count) || count < 0) throw new Error('Invalid Monkeytype test count');
+    counts[iso(last.getTime() - (activity.testsByDays.length - 1 - index) * day)] = count;
+  });
+  return counts;
+}
 // Each provider preserves its own last successful chart if temporarily unavailable.
 let successes = 0;
-for (const [name, loader] of [['Codeforces', codeforces], ['LeetCode', leetcode]]) {
+for (const [name, loader] of [['Codeforces', codeforces], ['LeetCode', leetcode], ['Monkeytype', monkeytype]]) {
   try {
     const values = await loader();
     for (const theme of ['light', 'dark']) await writeFile(`activity-${name.toLowerCase()}-${theme}.svg`, chart(name, values, theme));
     console.log(`${name} calendar refreshed`); successes++;
   } catch (error) { console.error(`${name}: ${error.message}`); }
 }
-if (successes !== 2) process.exitCode = 1;
+if (successes !== 3) process.exitCode = 1;
 
