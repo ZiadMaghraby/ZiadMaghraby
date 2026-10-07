@@ -13,9 +13,9 @@ async function json(url, options = {}) {
 function chart(platform, values, theme) {
   const dark = theme === 'dark';
   const unit = platform === 'Monkeytype' ? 'typing tests' : 'submissions';
-  const colors = dark ? ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'] : ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
-  const text = dark ? '#c9d1d9' : '#57606a';
-  const border = dark ? '#30363d' : '#d0d7de';
+  const colors = dark ? ['#2d333b', '#1b4721', '#2b6a30', '#46954a', '#6bc46d'] : ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
+  const text = dark ? '#adbac7' : '#57606a';
+  const border = dark ? '#444c56' : '#d0d7de';
   let total = 0, active = 0, cells = '', months = '', lastMonth = -1;
   const weeks = Math.ceil(((today - gridStart) / day + 1) / 7);
   const step = 13, cell = 10, left = 44;
@@ -34,7 +34,7 @@ function chart(platform, values, theme) {
     }
   }
   const legend = colors.map((c, i) => `<rect x="${647 + i * 13}" y="157" width="10" height="10" rx="2" fill="${c}"/>`).join('');
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="780" height="192" viewBox="0 0 780 192" role="img"><title>${platform}: ${total} ${unit} in the last year</title><rect x=".5" y=".5" width="779" height="191" rx="6" fill="${dark ? '#0d1117' : '#ffffff'}" stroke="${border}"/><g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" fill="${text}" font-size="11"><text x="16" y="23" font-size="14">${total.toLocaleString('en-US')} ${platform} ${unit} in the last year</text>${months}<text x="15" y="77">Mon</text><text x="15" y="103">Wed</text><text x="15" y="129">Fri</text>${cells}<text x="44" y="166">${active} active days · ${iso(start)} – ${iso(today)} · UTC</text><text x="615" y="166">Less</text>${legend}<text x="720" y="166">More</text></g></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="780" height="192" viewBox="0 0 780 192" role="img"><title>${platform}: ${total} ${unit} in the last year</title><rect x=".5" y=".5" width="779" height="191" rx="6" fill="none" stroke="${border}"/><g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" fill="${text}" font-size="11"><text x="16" y="23" font-size="14">${total.toLocaleString('en-US')} ${platform} ${unit} in the last year</text>${months}<text x="15" y="77">Mon</text><text x="15" y="103">Wed</text><text x="15" y="129">Fri</text>${cells}<text x="44" y="166">${active} active days · ${iso(start)} – ${iso(today)} · UTC</text><text x="615" y="166">Less</text>${legend}<text x="720" y="166">More</text></g></svg>`;
 }
 async function codeforces() {
   const counts = {};
