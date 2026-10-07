@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="160" viewBox="0 0 960 160" role="img"><title>Ziad Elmaghraby — Software Engineer · Backend .NET</title><style>@keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(64px)}}.dot{animation:drift 6s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.dot{animation:none}}</style><g font-family="Arial,Helvetica,sans-serif"><text x="8" y="64" fill="#447fae" font-size="44" font-weight="700" letter-spacing="-1.2">Ziad Elmaghraby<tspan fill="#7c8794">.</tspan></text><text x="10" y="106" fill="#77818d" font-size="24">Software Engineer · Backend .NET</text></g><path d="M11 136H83" stroke="#77818d" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/><circle class="dot" cx="15" cy="136" r="4" fill="#447fae"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="176" viewBox="0 0 960 176" role="img" aria-labelledby="title desc">
+  <title id="title">Ziad Elmaghraby — Software Engineer · Backend .NET</title>
+  <desc id="desc">A quiet signal traces a Z-shaped path, connecting an idea to its implementation.</desc>
+  <style>
+    .name{fill:#447fae}.muted{fill:#77818d}.track{stroke:#77818d;stroke-opacity:.3}.accent{stroke:#447fae}
+    .signal{animation:trace 7s ease-in-out infinite}
+    .endpoint{animation:breathe 7s ease-in-out infinite}
+    @keyframes trace{0%,12%{transform:translate(778px,43px);opacity:0}18%{transform:translate(778px,43px);opacity:1}36%{transform:translate(852px,43px);opacity:1}63%{transform:translate(778px,119px);opacity:1}81%,86%{transform:translate(852px,119px);opacity:1}94%,100%{transform:translate(852px,119px);opacity:0}}
+    @keyframes breathe{0%,75%,100%{opacity:.25}85%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.signal{animation:none;transform:translate(852px,119px)}.endpoint{animation:none;opacity:.6}}
+  </style>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text class="name" x="8" y="69" font-size="44" font-weight="700" letter-spacing="-1.2">Ziad Elmaghraby<tspan class="muted">.</tspan></text>
+    <text class="muted" x="10" y="110" font-size="24">Software Engineer · Backend .NET</text>
+  </g>
+  <path d="M11 143H49" class="accent" stroke-width="3" stroke-linecap="round"/>
+  <path d="M58 143H124" class="track" stroke-width="2" stroke-linecap="round"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M750 54L730 81L750 108M880 54L900 81L880 108" class="track" stroke-width="2"/>
+    <path d="M778 43H852L778 119H852" class="track" stroke-width="3"/>
+    <circle cx="778" cy="43" r="5" class="accent" stroke-width="2"/>
+    <circle cx="852" cy="119" r="8" class="accent endpoint" stroke-width="2"/>
+  </g>
+  <g class="signal" fill="#447fae"><circle r="10" opacity=".13"/><circle r="4"/></g>
+</svg>
