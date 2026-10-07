@@ -1,7 +1,7 @@
 name: Update activity calendars
 on:
   schedule:
-    - cron: '17 4 * * *'
+    - cron: '2-57/5 * * * *'
   workflow_dispatch:
   push:
     paths:
