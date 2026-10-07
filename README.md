@@ -55,14 +55,7 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 <img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-leetcode-light.svg" width="780" alt="ZiadMaghraby's LeetCode submission calendar">
 </picture>
 
-#### Monkeytype
-
-[View Monkeytype profile ↗](https://monkeytype.com/profile/ZiadMaghraby)
-
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-monkeytype-dark.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-monkeytype-light.svg" width="780" alt="ZiadMaghraby's Monkeytype typing activity over the last year">
-</picture>
+[Typing practice on Monkeytype ↗](https://monkeytype.com/profile/ZiadMaghraby)
 
 ---
 

@@ -66,7 +66,7 @@ async function leetcode() {
 async function monkeytype() {
   const response = await json('https://api.monkeytype.com/users/' + handle + '/profile');
   const activity = response.data?.testActivity;
-  if (!activity || !Array.isArray(activity.testsByDays) || !Number.isFinite(activity.lastDay)) throw new Error('Monkeytype public activity is unavailable');
+  if (!activity || !Array.isArray(activity.testsByDays) || !Number.isFinite(activity.lastDay)) return null;
   const last = new Date(activity.lastDay); last.setUTCHours(0, 0, 0, 0);
   if (!Number.isFinite(last.getTime())) throw new Error('Invalid Monkeytype calendar date');
   const counts = {};
@@ -82,6 +82,7 @@ let successes = 0;
 for (const [name, loader] of [['Codeforces', codeforces], ['LeetCode', leetcode], ['Monkeytype', monkeytype]]) {
   try {
     const values = await loader();
+    if (values === null) { console.log(`${name} activity is hidden; waiting for public profile activity`); successes++; continue; }
     for (const theme of ['light', 'dark']) await writeFile(`activity-${name.toLowerCase()}-${theme}.svg`, chart(name, values, theme));
     console.log(`${name} calendar refreshed`); successes++;
   } catch (error) { console.error(`${name}: ${error.message}`); }
