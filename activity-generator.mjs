@@ -89,3 +89,4 @@ for (const [name, loader] of [['Codeforces', codeforces], ['LeetCode', leetcode]
 }
 if (successes !== 3) process.exitCode = 1;
 
+// Monkeytype uses completed typing tests from the public profile calendar.
