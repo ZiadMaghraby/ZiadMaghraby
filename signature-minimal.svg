@@ -1,14 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="176" viewBox="0 0 960 176" role="img" aria-labelledby="title desc">
   <title id="title">Ziad Elmaghraby — Software Engineer · Backend .NET</title>
-  <desc id="desc">Signature concept 03: a sweeping Z, compact connected iad, and a long underline flourish.</desc>
+  <desc id="desc">Signature concept 01: a fine flowing monoline Ziad signature. Writes once and remains visible.</desc>
   <style>
     .name{fill:#447fae}.muted{fill:#77818d}.track{stroke:#77818d;stroke-opacity:.3}.accent{stroke:#447fae}
-    .ink{stroke-dasharray:1;stroke-dashoffset:0;animation-duration:10s;animation-timing-function:linear;animation-iteration-count:infinite}
-    .z{animation-name:z}.letters{animation-name:letters}.sweep{animation-name:sweep}.dot{animation-name:dot}
-    @keyframes z{0%,5%{stroke-dashoffset:1;opacity:1}27%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
-    @keyframes letters{0%,29%{stroke-dashoffset:1;opacity:1}57%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
-    @keyframes sweep{0%,59%{stroke-dashoffset:1;opacity:1}72%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
-    @keyframes dot{0%,74%{stroke-dashoffset:1;opacity:0}77%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
+    .ink{stroke-dasharray:1;stroke-dashoffset:0}
+    .name-stroke{animation:write 4.6s linear 1 both}
+    .dot{animation:dot .22s ease-out 4.75s 1 both}
+    @keyframes write{0%,5%{stroke-dashoffset:1}100%{stroke-dashoffset:0}}
+    @keyframes dot{from{stroke-dashoffset:1;opacity:0}to{stroke-dashoffset:0;opacity:1}}
     @media(prefers-reduced-motion:reduce){.ink{animation:none;stroke-dashoffset:0;opacity:1}}
   </style>
   <g font-family="Arial,Helvetica,sans-serif">
@@ -17,10 +16,8 @@
   </g>
   <path d="M11 143H49" class="accent" stroke-width="3" stroke-linecap="round"/>
   <path d="M58 143H124" class="track" stroke-width="2" stroke-linecap="round"/>
-  <g transform="translate(688 47) scale(.38) translate(-130 -445)" fill="none" stroke="#447fae" stroke-linecap="round" stroke-linejoin="round">
-    <path class="ink z" pathLength="1" stroke-width="10" d="M251 493 C296 475 386 453 452 453 C473 451 364 509 302 548 C258 576 219 598 199 610"/>
-    <path class="ink letters" pathLength="1" stroke-width="9" d="M411 539 C396 552 375 570 375 577 C375 586 424 559 446 544 C462 534 473 538 468 548 C459 562 431 579 427 574 C422 568 450 541 478 540 C466 552 454 566 455 571 C456 582 496 553 521 537 C533 530 543 531 540 539 C536 549 509 570 502 568 C495 564 519 539 540 536 C564 511 596 480 613 472 C592 493 550 536 533 556 C511 584 552 574 584 566 C622 555 664 543 682 554 C692 562 678 570 674 572"/>
-    <path class="ink sweep" pathLength="1" stroke-width="7" d="M340 552 C290 541 203 559 152 589 C91 628 162 643 255 627 C372 607 493 588 626 581"/>
-    <path class="ink dot" pathLength="1" stroke-width="10" d="M431 518 L421 525"/>
+  <g transform="translate(700 39) scale(.39) translate(-160 -150)" fill="none" stroke="#447fae" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+    <path class="ink name-stroke" pathLength="1" d="M221 199 C264 178 340 158 374 159 C414 154 232 271 174 318 C144 340 205 315 258 298 C316 281 366 270 387 253 C379 264 369 276 375 280 C381 286 416 267 431 258 C447 248 452 256 445 264 C435 274 416 286 417 277 C418 270 439 253 449 257 C453 259 447 267 451 276 C456 290 482 272 500 262 C514 253 522 254 522 260 C519 268 490 286 491 279 C489 273 509 253 522 256 C553 218 595 164 608 165 C625 165 566 223 532 250 C516 266 522 285 547 285 C574 286 611 272 641 264"/>
+    <path class="ink dot" pathLength="1" stroke-width="6" d="M397 234 L398 233"/>
   </g>
 </svg>
