@@ -35,6 +35,15 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 <img src="https://streak-stats.demolab.com/?user=ZiadMaghraby&theme=default&background=FFFFFF00&hide_border=true&card_width=795&disable_animations=true&ring=1F6FEB&fire=1F6FEB&currStreakNum=1F2328&sideNums=1F6FEB&currStreakLabel=1F2328&sideLabels=59636E&dates=59636E&stroke=D1D9E0" width="795" alt="Ziad Elmaghraby's total contributions, current streak, and longest streak">
 </picture>
 
+### Codeforces Activity
+
+[ZiadMaghraby on Codeforces ↗](https://codeforces.com/profile/ZiadMaghraby) · Submission activity over the last 52 weeks
+
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://cp-insights-three.vercel.app/api/profile?handle=ZiadMaghraby&theme=dark&heatmap=true&problemBarGraph=false#svgView(viewBox(15,245,740,140))">
+<img src="https://cp-insights-three.vercel.app/api/profile?handle=ZiadMaghraby&theme=light&heatmap=true&problemBarGraph=false#svgView(viewBox(15,245,740,140))" width="795" height="150" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
+</picture>
+
 ---
 
 **Have a backend problem worth solving?** [Let’s talk →](mailto:ziadelmaghraby0@gmail.com).
