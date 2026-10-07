@@ -40,8 +40,8 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 [ZiadMaghraby on Codeforces ↗](https://codeforces.com/profile/ZiadMaghraby) · Submission activity over the last 52 weeks
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://cp-insights-three.vercel.app/api/profile?handle=ZiadMaghraby&theme=dark&heatmap=true&problemBarGraph=false#svgView(viewBox(15,245,740,140))">
-<img src="https://cp-insights-three.vercel.app/api/profile?handle=ZiadMaghraby&theme=light&heatmap=true&problemBarGraph=false#svgView(viewBox(15,245,740,140))" width="795" height="150" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-dark.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-light.svg" width="795" height="150" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
 </picture>
 
 ---
