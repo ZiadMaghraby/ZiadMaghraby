@@ -17,7 +17,9 @@
     </defs>
    <g opacity="0">
    <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze"/>
-   <image href="data:image/jpeg;base64,PGh0bWw+PGJvZHk+PGgxPjUwMyBTZXJ2aWNlIFVuYXZhaWxhYmxlPC9oMT4KTm8gc2VydmVyIGlzIGF2YWlsYWJsZSB0byBoYW5kbGUgdGhpcyByZXF1ZXN0Lgo8L2JvZHk+PC9odG1sPgo=" x="530" y="20" width="210" height="210" preserveAspectRatio="xMidYMid slice" clip-path="url(#photo)"/>
+   <image href="data:image/jpeg;base64,PGh0bWw+PGJvZHk+PGgxPjUwMyBTZXJ2aWNlIFVuYXZhaWxhYmxlPC9oMT4KTm8gc2VydmVyIGlzIGF2YWlsYWJsZSB0byBoYW5kbGUgdGhpcyByZXF1ZXN0Lgo8L2JvZHk+PC9odG1sPgo=" x="530" y="20" width="210" height="210"
+        preserveAspectRatio="xMidYMid slice"
+        clip-path="url(#photo)"/>
     </g>
     <rect x="530" y="20" width="210" height="210" fill="none" stroke="#30363D" stroke-width="2"/>
     <text x="30" y="68" fill="#3FB950" font-size="20" font-family="Segoe UI, Arial" font-weight="700">pupil</text>
