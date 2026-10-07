@@ -28,7 +28,7 @@ React · Laravel / Eloquent · JavaScript · HTML / CSS · Tailwind CSS · Boots
 OOP · SOLID · Domain-Driven Design · Microservices · Testing · Azure · Git / GitHub · CI/CD
 
 **Languages**  
-C# · **C++** · Java · PHP · JavaScript · Kotlin
+C# · C++ · Java · PHP · JavaScript
 
 ### Activity
 
