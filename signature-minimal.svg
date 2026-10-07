@@ -1,24 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="176" viewBox="0 0 960 176" role="img" aria-labelledby="title desc">
   <title id="title">Ziad Elmaghraby — Software Engineer · Backend .NET</title>
-  <desc id="desc">Ziad's handwritten signature, traced from his drawing and gently animated.</desc>
+  <desc id="desc">A clean vector Ziad signature, written from left to right: Z, i, a, d.</desc>
   <style>
     .name{fill:#447fae}.muted{fill:#77818d}.track{stroke:#77818d;stroke-opacity:.3}.accent{stroke:#447fae}
-    .ink{stroke-dasharray:1;stroke-dashoffset:0;animation:write 9s ease-in-out infinite}
-    .flourish{animation-name:flourish}.dot{animation-name:dot}
-    @keyframes write{0%,6%{stroke-dashoffset:1;opacity:1}34%,88%{stroke-dashoffset:0;opacity:1}97%,100%{stroke-dashoffset:0;opacity:0}}
-    @keyframes flourish{0%,30%{stroke-dashoffset:1;opacity:1}66%,88%{stroke-dashoffset:0;opacity:1}97%,100%{stroke-dashoffset:0;opacity:0}}
-    @keyframes dot{0%,65%{stroke-dashoffset:1;opacity:0}70%,88%{stroke-dashoffset:0;opacity:1}97%,100%{stroke-dashoffset:0;opacity:0}}
-    @media(prefers-reduced-motion:reduce){.ink{animation:none;stroke-dashoffset:0;opacity:1}}  </style>
+    .ink{stroke-dasharray:1;stroke-dashoffset:0;animation-duration:10s;animation-timing-function:linear;animation-iteration-count:infinite}
+    .z{animation-name:z}.i{animation-name:i}.idot{animation-name:idot}.a{animation-name:a}.d{animation-name:d}.underline{animation-name:underline}
+    @keyframes z{0%,5%{stroke-dashoffset:1;opacity:1}23%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
+    @keyframes i{0%,25%{stroke-dashoffset:1;opacity:1}32%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
+    @keyframes idot{0%,32%{stroke-dashoffset:1;opacity:0}35%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
+    @keyframes a{0%,37%{stroke-dashoffset:1;opacity:1}49%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
+    @keyframes d{0%,51%{stroke-dashoffset:1;opacity:1}65%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
+    @keyframes underline{0%,67%{stroke-dashoffset:1;opacity:1}75%,88%{stroke-dashoffset:0;opacity:1}97%,100%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){.ink{animation:none;stroke-dashoffset:0;opacity:1}}
+  </style>
   <g font-family="Arial,Helvetica,sans-serif">
     <text class="name" x="8" y="69" font-size="44" font-weight="700" letter-spacing="-1.2">Ziad Elmaghraby<tspan class="muted">.</tspan></text>
     <text class="muted" x="10" y="110" font-size="24">Software Engineer · Backend .NET</text>
   </g>
   <path d="M11 143H49" class="accent" stroke-width="3" stroke-linecap="round"/>
   <path d="M58 143H124" class="track" stroke-width="2" stroke-linecap="round"/>
-  <g transform="translate(805 85) scale(.43) rotate(50) translate(-400 -650)" fill="none" stroke="#447fae" stroke-linecap="round" stroke-linejoin="round">
-    <path class="ink" pathLength="1" stroke-width="9" d="M451 442 C453 461 466 477 466 499 C476 488 475 511 463 519 C448 528 451 500 468 504 C478 508 465 533 447 529 C439 526 438 513 439 519 C438 536 444 548 435 565 C429 581 419 558 418 551"/>
-    <path class="ink flourish" pathLength="1" stroke-width="7" d="M341 611 C327 624 358 621 371 576 C363 598 375 632 369 660"/>
-    <path class="ink flourish" pathLength="1" stroke-width="5.5" d="M369 660 C389 617 420 580 437 597 C463 625 429 725 408 759 C376 813 350 853 318 861 C288 877 348 758 379 717 C420 662 454 609 478 560 C485 548 488 536 483 536"/>
-    <path class="ink dot" pathLength="1" stroke-width="11" d="M399 520 L398 527"/>
+  <g transform="translate(714 29)" fill="none" stroke="#447fae" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path class="ink z" pathLength="1" d="M14 28 Q37 18 66 25 L16 81 Q39 74 67 78"/>
+    <path class="ink i" pathLength="1" d="M85 47 L78 71 Q75 81 89 76"/>
+    <path class="ink idot" pathLength="1" stroke-width="5" d="M89 32 L89.2 31.8"/>
+    <path class="ink a" pathLength="1" d="M125 51 C113 40 99 52 98 66 C97 85 116 82 123 61 L127 47 L121 71 Q119 81 133 76"/>
+    <path class="ink d" pathLength="1" d="M168 51 C157 40 141 52 140 66 C139 84 156 83 164 63 L178 22 L165 70 Q162 82 179 76"/>
+    <path class="ink underline" pathLength="1" stroke-width="1.8" d="M11 99 C57 91 130 96 181 90"/>
   </g>
 </svg>
