@@ -8,6 +8,8 @@ on:
       - '.github/workflows/codeforces-activity.yml'
       - 'activity-generator.mjs'
       - 'github-stats.mjs'
+      - 'sync-activity-links.mjs'
+      - 'README.md'
 permissions:
   contents: write
 concurrency:
@@ -25,6 +27,9 @@ jobs:
         run: node github-stats.mjs
       - name: Generate activity calendars
         run: node activity-generator.mjs
+      - name: Synchronize activity image URLs
+        if: always()
+        run: node sync-activity-links.mjs
       - name: Save refreshed calendars
         if: always()
         run: |
