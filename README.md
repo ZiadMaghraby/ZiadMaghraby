@@ -18,22 +18,17 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 
 ### Technical skills
 
-**Primary focus: C# / .NET backend development.** Project experience also spans Laravel, React and Android applications.
+**Backend**  
+.NET · MVC · REST APIs · LINQ · Entity Framework · Dapper · ADO.NET · SQL / MySQL · NoSQL
 
-| Area | Technologies & practices |
-| :--- | :--- |
-| **Languages** | C# (including advanced C#), Java, PHP, JavaScript; Kotlin fundamentals |
-| **Backend** | .NET, MVC, API development, LINQ, Laravel, authentication, request validation |
-| **Data & persistence** | SQL, MySQL, NoSQL, ADO.NET, Dapper, Entity Framework, Eloquent ORM, database migrations |
-| **Frontend** | React, React Router, Hooks & Context API, HTML, CSS, Bootstrap, Tailwind CSS, styled-components, Alpine.js |
-| **Android** | AndroidX, Fragments, XML layouts, Material Design, SharedPreferences; Jetpack Compose fundamentals |
-| **Engineering** | OOP, SOLID, testing, Domain-Driven Design, domain modeling, microservices |
-| **Cloud & delivery** | Microsoft Azure, deployment strategies, CI/CD |
-| **Tools & collaboration** | Git, GitHub, Gradle, Composer, npm, Vite, Agile development, teamwork |
+**Web & mobile**  
+React · Laravel / Eloquent · JavaScript · HTML / CSS · Tailwind CSS · Bootstrap · Android · Jetpack Compose
 
-**Applied in projects:** [Clinic System](https://github.com/ZiadMaghraby/clinic_system) · [Antique Shop](https://github.com/ZiadMaghraby/antique-shop-project) · [Recipe App](https://github.com/ZiadMaghraby/recipeApp) · [Calculator](https://github.com/ZiadMaghraby/calculator)
+**Engineering & delivery**  
+OOP · SOLID · Domain-Driven Design · Microservices · Testing · Azure · Git / GitHub · CI/CD
 
-**Domain knowledge:** Logistics SaaS.
+**Languages**  
+C# · **C++** · Java · PHP · JavaScript · Kotlin
 
 ### Activity
 
