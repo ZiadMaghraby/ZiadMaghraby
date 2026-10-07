@@ -33,8 +33,8 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 #### GitHub
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-dark.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-light.svg" width="795" alt="GitHub contributions and streaks over the last 12 months">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-dark.svg?v=69eb6815c1f3">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-light.svg?v=69eb6815c1f3" width="795" alt="GitHub contributions and streaks over the last 12 months">
 </picture>
 
 #### Codeforces
