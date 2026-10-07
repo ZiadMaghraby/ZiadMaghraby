@@ -42,8 +42,8 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 [View Codeforces profile ↗](https://codeforces.com/profile/ZiadMaghraby)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-dark.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-light.svg" width="780" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-codeforces-dark.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-codeforces-light.svg" width="780" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
 </picture>
 
 #### LeetCode
@@ -51,8 +51,8 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 [View LeetCode profile ↗](https://leetcode.com/u/ZiadMaghraby/)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/leetcode-dark.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/leetcode-light.svg" width="780" alt="ZiadMaghraby's LeetCode submission calendar">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-leetcode-dark.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-leetcode-light.svg" width="780" alt="ZiadMaghraby's LeetCode submission calendar">
 </picture>
 
 [Typing practice on Monkeytype ↗](https://monkeytype.com/profile/ZiadMaghraby)

@@ -67,8 +67,9 @@ let successes = 0;
 for (const [name, loader] of [['Codeforces', codeforces], ['LeetCode', leetcode]]) {
   try {
     const values = await loader();
-    for (const theme of ['light', 'dark']) await writeFile(`${name.toLowerCase()}-${theme}.svg`, chart(name, values, theme));
+    for (const theme of ['light', 'dark']) await writeFile(`activity-${name.toLowerCase()}-${theme}.svg`, chart(name, values, theme));
     console.log(`${name} calendar refreshed`); successes++;
   } catch (error) { console.error(`${name}: ${error.message}`); }
 }
 if (successes !== 2) process.exitCode = 1;
+
