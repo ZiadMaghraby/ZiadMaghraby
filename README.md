@@ -33,8 +33,8 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 #### GitHub
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=ZiadMaghraby&theme=github-dark-blue&background=00000000&ring=79C0FF&fire=79C0FF&currStreakNum=F0F6FC&sideNums=79C0FF&currStreakLabel=F0F6FC&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true&card_width=795&disable_animations=true">
-<img src="https://streak-stats.demolab.com/?user=ZiadMaghraby&theme=default&background=FFFFFF00&hide_border=true&card_width=795&disable_animations=true&ring=1F6FEB&fire=1F6FEB&currStreakNum=1F2328&sideNums=1F6FEB&currStreakLabel=1F2328&sideLabels=59636E&dates=59636E&stroke=D1D9E0" width="795" alt="Ziad Elmaghraby's total contributions, current streak, and longest streak">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-dark.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-github-light.svg" width="795" alt="GitHub contributions and streaks over the last 12 months">
 </picture>
 
 #### Codeforces
