@@ -2,9 +2,9 @@
 
 I’m a software engineer focused on **C# and .NET backend development**. I care about clear application boundaries, thoughtful data access, and code that is easy to understand and maintain.
 
-[LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby)
+[LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby) · [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
 
-[Projects](#featured-projects) &nbsp; / &nbsp; [Skills](#technical-skills) &nbsp; / &nbsp; [Contributions](#js-contribution-activity-description)
+[Projects](#featured-projects) &nbsp; / &nbsp; [Skills](#technical-skills) &nbsp; / &nbsp; [Activity](#activity)
 
 ### Featured Projects
 
@@ -28,21 +28,34 @@ I’m a software engineer focused on **C# and .NET backend development**. I care
 | **Collaboration** | Git, GitHub, version control, Agile development, teamwork |
 | **Business domains** | Logistics SaaS |
 
-### GitHub Stats
+### Activity
+
+#### GitHub
 
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=ZiadMaghraby&theme=github-dark-blue&background=00000000&ring=79C0FF&fire=79C0FF&currStreakNum=F0F6FC&sideNums=79C0FF&currStreakLabel=F0F6FC&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true&card_width=795&disable_animations=true">
 <img src="https://streak-stats.demolab.com/?user=ZiadMaghraby&theme=default&background=FFFFFF00&hide_border=true&card_width=795&disable_animations=true&ring=1F6FEB&fire=1F6FEB&currStreakNum=1F2328&sideNums=1F6FEB&currStreakLabel=1F2328&sideLabels=59636E&dates=59636E&stroke=D1D9E0" width="795" alt="Ziad Elmaghraby's total contributions, current streak, and longest streak">
 </picture>
 
-### Codeforces Activity
+#### Codeforces
 
-[ZiadMaghraby on Codeforces ↗](https://codeforces.com/profile/ZiadMaghraby) · Submission activity over the last 52 weeks
+[View Codeforces profile ↗](https://codeforces.com/profile/ZiadMaghraby)
 
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-dark.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-light.svg" width="795" height="150" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/codeforces-light.svg" width="780" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
 </picture>
+
+#### LeetCode
+
+[View LeetCode profile ↗](https://leetcode.com/u/ZiadMaghraby/)
+
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/leetcode-dark.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/leetcode-light.svg" width="780" alt="ZiadMaghraby's LeetCode submission calendar">
+</picture>
+
+[Typing practice on Monkeytype ↗](https://monkeytype.com/profile/ZiadMaghraby)
 
 ---
 
