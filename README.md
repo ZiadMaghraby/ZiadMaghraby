@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/e6f5c82f942870a571cc86ab17056e70501d5c7d/signature-minimal.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/010ef2ff64350954c39582649cecc7e66169b56a/signature-minimal.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
 
 Software engineer focused on **C# and .NET backend development**. I build applications with clear structure, practical data access, and maintainable code.
 
