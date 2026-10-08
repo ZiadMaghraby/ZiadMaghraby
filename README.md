@@ -20,10 +20,13 @@ Software engineer focused on **C# and .NET backend development**. I build applic
 ### Technical skills
 
 **Backend**  
-.NET · MVC · REST APIs · LINQ · Entity Framework · Dapper · ADO.NET · SQL / MySQL · NoSQL
+.NET · MVC · REST APIs · LINQ · Entity Framework · Dapper · ADO.NET · Laravel / Eloquent · SQL / MySQL · NoSQL
 
-**Web & mobile**  
-React · Laravel / Eloquent · HTML / CSS · Tailwind CSS · Bootstrap · Android
+**Frontend**  
+HTML · CSS · React · React Router · Tailwind CSS · Bootstrap · styled-components · Alpine.js · Blade · Vite
+
+**Mobile**  
+Android
 
 **Engineering & delivery**  
 OOP · SOLID · Domain-Driven Design · Microservices · Testing · Azure · Git / GitHub · CI/CD
