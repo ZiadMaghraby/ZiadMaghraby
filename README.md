@@ -10,7 +10,7 @@ Software engineer focused on **C# and .NET backend development**. I build applic
 
 | Project | Stack | Overview |
 | :--- | :--- | :--- |
-| **[Noteforge](https://github.com/ZiadMaghraby/noteforge)** | React · TypeScript · Cloudflare D1 | Workspace app with block editing, nested pages, and task databases. In development. |
+| **[Noteforge](https://github.com/ZiadMaghraby/noteforge)** | C# · ASP.NET Core · Blazor · EF Core · SQLite | Workspace app with block editing, nested pages, and task databases. In development. |
 | **[Clinic System](https://github.com/ZiadMaghraby/clinic_system)** | PHP · Laravel · MySQL | Collaborative clinic management for doctors, patients, appointments, and invoices. |
 | **[Recipe App](https://github.com/ZiadMaghraby/recipeApp)** | Java · Android | Recipe browsing, favorites, custom recipes, and shopping lists. |
 | **[Antique Shop](https://github.com/ZiadMaghraby/antique-shop-project)** | React · Bootstrap · Vite | Collaborative storefront with product browsing, cart, checkout flow, and theme switching. |
