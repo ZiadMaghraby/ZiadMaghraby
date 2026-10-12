@@ -40,29 +40,29 @@ C# · C++ · Java · PHP · JavaScript
 #### GitHub
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/github-dark-73aaadc96e97.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/github-light-73aaadc96e97.svg" width="795" alt="GitHub contributions and streaks over the last 12 months">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/github-dark-2009d038b2cb.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/github-light-2009d038b2cb.svg" width="795" alt="GitHub contributions and streaks over the last 12 months">
 </picture>
 
 #### [Codeforces](https://codeforces.com/profile/ZiadMaghraby)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/codeforces-dark-cf96179ea610.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/codeforces-light-cf96179ea610.svg" width="780" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/codeforces-dark-b1516d5db047.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/codeforces-light-b1516d5db047.svg" width="780" alt="ZiadMaghraby's Codeforces submission activity over the last 52 weeks">
 </picture>
 
 #### [LeetCode](https://leetcode.com/u/ZiadMaghraby/)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/leetcode-dark-92889b206ce3.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/leetcode-light-92889b206ce3.svg" width="780" alt="ZiadMaghraby's LeetCode submission calendar">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/leetcode-dark-bb57d0ab0078.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/leetcode-light-bb57d0ab0078.svg" width="780" alt="ZiadMaghraby's LeetCode submission calendar">
 </picture>
 
 #### [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-dark-c3c3e89dac57.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-light-c3c3e89dac57.svg" width="780" alt="ZiadMaghraby's Monkeytype typing activity over the last year">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-dark-5f6aee3c0547.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-light-5f6aee3c0547.svg" width="780" alt="ZiadMaghraby's Monkeytype typing activity over the last year">
 </picture>
 
 ---
