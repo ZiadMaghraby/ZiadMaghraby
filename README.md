@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/bd2d9faf16c8b3ac6ad5badcc82a0106093b0845/signature-minimal.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
 
-<img align="right" src="Assets/coding-island-personal.gif" width="240" alt="Ziad with glasses coding on a floating C# island alongside a friendly robot">
+<img align="right" src="Assets/bug-hunter-portal.gif" width="240" alt="Ziad jumps through a terminal portal to chase a bug with a cursor net in a looping pixel-art animation">
 
 Software engineer focused on **C# and .NET backend development**. I build applications with clear structure, practical data access, and maintainable code.
 
