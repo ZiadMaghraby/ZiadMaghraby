@@ -1,5 +1,9 @@
 <img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/bd2d9faf16c8b3ac6ad5badcc82a0106093b0845/signature-minimal.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
 
+<p align="center">
+  <img src="Assets/coding-island.gif" width="420" alt="Pixel-art floating coding island with a C# developer, glowing laptop, and friendly robot">
+</p>
+
 Software engineer focused on **C# and .NET backend development**. I build applications with clear structure, practical data access, and maintainable code.
 
 [LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby) · [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
