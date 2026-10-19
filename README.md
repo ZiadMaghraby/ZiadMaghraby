@@ -65,8 +65,8 @@ C# · C++ · Java · PHP · JavaScript
 #### [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-dark-88980e4fe429.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-light-88980e4fe429.svg" width="780" alt="ZiadMaghraby's Monkeytype typing activity over the last year">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-dark-43edf9a44acb.svg">
+<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-light-43edf9a44acb.svg" width="780" alt="ZiadMaghraby's Monkeytype typing activity over the last year">
 </picture>
 
 ---
