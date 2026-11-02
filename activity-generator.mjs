@@ -105,7 +105,7 @@ async function monkeytype() {
 }
 // Each provider preserves its own last successful chart if temporarily unavailable.
 let successes = 0;
-for (const [name, loader] of [['Codeforces', codeforces], ['LeetCode', leetcode], ['Monkeytype', monkeytype]]) {
+for (const [name, loader] of [['Monkeytype', monkeytype]]) {
   try {
     const values = await loader();
     if (values === null) { console.log(`${name} activity is hidden; waiting for public profile activity`); successes++; continue; }
@@ -113,6 +113,6 @@ for (const [name, loader] of [['Codeforces', codeforces], ['LeetCode', leetcode]
     console.log(`${name} calendar refreshed`); successes++;
   } catch (error) { console.error(`${name}: ${error.message}`); }
 }
-if (successes !== 3) process.exitCode = 1;
+if (successes !== 1) process.exitCode = 1;
 
 // Monkeytype uses completed typing tests from the public profile calendar.
