@@ -6,9 +6,9 @@ const portrait=JSON.parse(await readFile('data/portrait-vector.json','utf8'));
 const themes={dark:{ink:'#e6edf3',muted:'#9daab8',line:'#30363d',accent:'#72d6bb',soft:'#161b22',grid:['#21262d','#174c43','#267d67','#41b896','#7ce3bd']},light:{ink:'#1f2328',muted:'#596775',line:'#d8dee4',accent:'#167761',soft:'#f6f8fa',grid:['#ebedf0','#b9e6d5','#75c8aa','#369f7c','#176c53']}};
 function svg(w,h,title,body){return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title"><title id="title">${esc(title)}</title><style>text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.draw{animation:draw .24s both;animation-delay:var(--delay)}.appear{animation:appear .5s both;animation-delay:var(--delay)}@keyframes draw{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}@keyframes appear{from{opacity:0}to{opacity:1}}@media(prefers-reduced-motion:reduce){.draw,.appear{animation:none}}</style>${body}</svg>`;}
 const text=(x,y,s,size,color,attrs='')=>`<text x="${x}" y="${y}" font-size="${size}" fill="${color}" ${attrs}>${esc(s)}</text>`;
-const rows=Array.from({length:portrait.size},()=>new Map());
-for(const [x,y,width,color] of portrait.runs)rows[y].set(color,(rows[y].get(color)||'')+`M${x} ${y}h${width}v1h-${width}z`);
-const vector=rows.map((r,y)=>`<g class="draw" style="--delay:${(y*.016).toFixed(3)}s">${[...r].map(([color,d])=>`<path d="${d}" fill="${color}"/>`).join('')}</g>`).join('');
+const rows=Array.from({length:portrait.size},()=>[]);
+for(const [x,y,width,color] of portrait.runs)rows[y].push(`<rect x="${x}" y="${y}" width="${width}" height="1" fill="${color}"/>`);
+const vector=rows.map((r,y)=>`<g class="draw" style="--delay:${(y*.016).toFixed(3)}s">${r.join('')}</g>`).join('');
 for(const [theme,c] of Object.entries(themes)){
  let body=`<path d="M0 309H960" stroke="${c.line}"/>`;
  body+=text(24,49,'SOFTWARE ENGINEER',12,c.accent,'letter-spacing="2.5" font-weight="600"');
