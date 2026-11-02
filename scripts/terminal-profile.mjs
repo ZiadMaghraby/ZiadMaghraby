@@ -51,21 +51,19 @@ for(const [theme,c] of Object.entries(themes)){
  });
  body+='<path d="M0 837H840" stroke="'+c.line+'"/>'+text(20,860,'ziad@github:~$ whoami  Ziad Elmaghraby',13,c.muted)+'<rect class="moving" x="311" y="848" width="8" height="14" fill="'+c.ink+'"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>';
  await writeFile(out+'/portrait-'+theme+'.svg',svg(840,880,'Ziad Elmaghraby — monochrome ASCII portrait, typed row by row from his GitHub avatar.',body));
- body=terminal(c,'ziad@github: ~ $ ./about.sh');
- body+=text(38,105,'Ziad Elmaghraby',36,c.ink,'font-weight="700"');
- body+=text(38,149,'Software Engineer',24,c.accent);
- body+=text(38,187,'Backend .NET / APIs / Data',20,c.muted);
- const cards=[[38,236,current,'CURRENT STREAK',current===1?'day':'days'],[435,236,longest,'LONGEST STREAK',longest===1?'day':'days'],[38,412,active,'ACTIVE DAYS','last year'],[435,412,Math.max(...days.map(d=>d.contributionCount)),'BEST DAY','contributions']];
- for(const [index,[x,y,value,label,unit]] of cards.entries()){
-  body+='<g class="tile" style="animation-delay:'+(index*.15).toFixed(2)+'s">';
-  body+='<rect x="'+x+'" y="'+y+'" width="367" height="148" rx="8" fill="'+c.soft+'" stroke="'+c.line+'"/>';
-  body+=text(x+22,y+34,label,16,c.muted);
+ body=terminal(c,'ziad@github: ~ $ ./stats.sh');
+ const best=days.reduce((a,b)=>b.contributionCount>a.contributionCount?b:a,days[0]);
+ const cards=[['current streak',current,current===1?'day':'days'],['longest streak',longest,longest===1?'day':'days'],['contributions',total,'in the last year'],['active days',active,Math.round(active/days.length*100)+'% of the year'],['best day',best.contributionCount,best.date],['avg / active day',active?total/active:0,'contributions']];
+ for(const [index,[label,value,caption]] of cards.entries()){
+  const x=20+(index%2)*408,y=54+Math.floor(index/2)*166,color=index===0?c.accent:c.ink;
+  const fmt=n=>index===5?n.toFixed(1):Math.round(n).toLocaleString('en-US');
+  body+='<g class="tile" style="animation-delay:'+(index*.15).toFixed(2)+'s"><rect x="'+x+'" y="'+y+'" width="392" height="150" rx="10" fill="'+c.soft+'" stroke="'+c.line+'"/>';
+  body+=text(x+24,y+40,'$ '+label,22,c.muted);
   for(let k=1;k<=16;k++){
-   const on=index*.15+.27+(k-1)*.075,off=on+.075;
-   const number=Math.round(value*(1-Math.pow(1-k/16,3)));
-   body+='<text class="moving" x="'+(x+22)+'" y="'+(y+90)+'" font-size="48" font-weight="700" fill="'+c.accent+'" opacity="0">'+number+'<set attributeName="opacity" to="1" begin="'+on.toFixed(3)+'s"/>'+(k<16?'<set attributeName="opacity" to="0" begin="'+off.toFixed(3)+'s"/>':'')+'</text>';
+   const on=index*.15+.27+(k-1)*.075;
+   body+='<text class="moving" x="'+(x+24)+'" y="'+(y+100)+'" font-size="54" font-weight="700" fill="'+color+'" opacity="0">'+fmt(value*(1-Math.pow(1-k/16,3)))+'<set attributeName="opacity" to="1" begin="'+on.toFixed(3)+'s"/>'+(k<16?'<set attributeName="opacity" to="0" begin="'+(on+.075).toFixed(3)+'s"/>':'')+'</text>';
   }
-  body+=text(x+22,y+90,value,48,c.accent,'class="still" font-weight="700"')+text(x+22,y+124,unit,16,c.muted)+'</g>';
+  body+=text(x+24,y+100,fmt(value),54,color,'class="still" font-weight="700"')+text(x+24,y+132,caption,20,c.muted)+'</g>';
  }
  // Monthly bars use only real contribution days from the displayed calendar.
  const monthly=new Map();for(const d of days){const key=d.date.slice(0,7);monthly.set(key,(monthly.get(key)||0)+d.contributionCount);}
@@ -97,4 +95,4 @@ for(const [theme,c] of Object.entries(themes)){
 }
 console.log('Rendered reference-matched entrance: cursor typing, diagonal pops, staggered count-ups and growing monthly bars.');
 
-await import('./project-cards.mjs');
+

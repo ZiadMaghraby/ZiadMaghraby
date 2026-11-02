@@ -27,17 +27,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/terminal-profile.mjs
-      - name: Generate activity calendars
-        run: node activity-generator.mjs
-      - name: Synchronize activity image URLs
-        if: always()
-        run: node sync-activity-links.mjs
       - name: Save refreshed calendars
         if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add '*-light.svg' '*-dark.svg' README.md activity-snapshots assets/terminal data/contributions.json
+          git add assets/terminal data/contributions.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Refresh activity calendars'
           git push
