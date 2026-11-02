@@ -1,9 +1,38 @@
+<div align="center">
+
+<h3><code>ziad@github ~ $ ./contributions.sh</code></h3>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/identity-dark.svg">
-  <img src="assets/terminal/identity-light.svg" width="960" alt="Ziad Elmaghraby — Software Engineer. Backend .NET, APIs, and data-driven applications.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/contributions-dark.svg">
+  <img src="assets/terminal/contributions-light.svg" width="860" alt="Ziad's GitHub contribution calendar — updated daily">
 </picture>
 
-[LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [Projects](#selected-projects) · [Activity](#github-activity)
+<br>
+
+<h3><code>ziad@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top" width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/portrait-dark.svg">
+  <img src="assets/terminal/portrait-light.svg" width="420" alt="Ziad Elmaghraby — monochrome ASCII portrait that types itself row by row">
+</picture>
+</td>
+<td valign="top" width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/about-dark.svg">
+  <img src="assets/terminal/about-light.svg" width="420" alt="Backend .NET engineer — current streak, longest streak, active days, and best day">
+</picture>
+</td>
+</tr>
+</table>
+
+<h3><code>ziad@github ~ $ ./links.sh</code></h3>
+
+[LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [Repositories](https://github.com/ZiadMaghraby?tab=repositories)
+
+</div>
 
 ### Selected projects
 
@@ -34,21 +63,14 @@
 | **Web & mobile** | React · Blazor · Laravel · Android |
 | **Engineering** | OOP · SOLID · Domain-Driven Design · Testing · Git · CI/CD |
 
-### GitHub activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/contributions-dark.svg">
-  <img src="assets/terminal/contributions-light.svg" width="960" alt="GitHub contribution calendar, total contributions, active days, and streaks. Updated daily.">
-</picture>
-
 <details>
 <summary>Beyond projects · problem solving & typing</summary>
 
 [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby) · [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="activity-snapshots/monkeytype-dark-80cab1812e8e.svg">
-  <img src="activity-snapshots/monkeytype-light-80cab1812e8e.svg" width="780" alt="Monkeytype typing activity over the last year">
+  <source media="(prefers-color-scheme: dark)" srcset="activity-monkeytype-dark.svg">
+  <img src="activity-monkeytype-light.svg" width="780" alt="Monkeytype typing activity over the last year">
 </picture>
 
 <p align="center"><img src="Assets/campfire-transparent.gif" width="170" alt="A quiet pixel-art campsite with a friendly robot"></p>
