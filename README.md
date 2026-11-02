@@ -80,8 +80,8 @@ A closer look at the systems I’m building.
 [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby) · [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="activity-snapshots/monkeytype-dark-80cab1812e8e.svg">
-  <img src="activity-snapshots/monkeytype-light-80cab1812e8e.svg" width="780" alt="Monkeytype typing activity over the last year">
+  <source media="(prefers-color-scheme: dark)" srcset="activity-monkeytype-dark.svg">
+  <img src="activity-monkeytype-light.svg" width="780" alt="Monkeytype typing activity over the last year">
 </picture>
 
 <p align="center"><img src="Assets/campfire-transparent.gif" width="170" alt="A quiet pixel-art campsite with a friendly robot"></p>
