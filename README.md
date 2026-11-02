@@ -1,77 +1,56 @@
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/bd2d9faf16c8b3ac6ad5badcc82a0106093b0845/signature-minimal.svg" width="960" alt="Ziad Elmaghraby — Software Engineer · Backend .NET">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/identity-dark.svg">
+  <img src="assets/terminal/identity-light.svg" width="960" alt="Ziad Elmaghraby — Software Engineer. Backend .NET, APIs, and data-driven applications.">
+</picture>
 
-<img align="right" src="Assets/campfire-transparent.gif" width="240" alt="Ziad sipping from a mug beside a waving robot and flickering campfire at a pixel-art campsite">
+[LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [Projects](#selected-projects) · [Activity](#github-activity)
 
-Software engineer focused on **C# and .NET backend development**. I build applications with clear structure, practical data access, and maintainable code.
+### Selected projects
 
-[LinkedIn](https://www.linkedin.com/in/ziadmaghraby/) · [Email](mailto:ziadelmaghraby0@gmail.com) · [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby) · [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
-
-[Projects](#featured-projects) &nbsp; / &nbsp; [Skills](#technical-skills) &nbsp; / &nbsp; [Activity](#activity)
-
-<br clear="right">
-
-### `ziad@github ~ $ whoami`
-
-<img src="assets/terminal/identity.svg" width="960" alt="Animated ASCII portrait of Ziad with a terminal card: backend .NET, C#, ASP.NET Core, EF Core, SQL, and current projects">
-
-### Featured Projects
-
-| Project | Stack | Overview |
+| Project | What it does | Built with |
 | :--- | :--- | :--- |
-| **[StockPilot](https://github.com/ZiadMaghraby/StockPilot)** | C# · ASP.NET Core · EF Core | Multi-tenant inventory and orders, transactional stock reservations, role-based access, and integration tests. |
-| **[Clarity Clinic](https://github.com/ZiadMaghraby/clarity-clinic)** | PHP · Clinic management | Bilingual appointments, patient profiles, billing, reports, and audited doctor availability. |
-| **[Noteforge](https://github.com/ZiadMaghraby/noteforge)** | C# · ASP.NET Core · Blazor · EF Core · SQLite | Workspace app with block editing, nested pages, and task databases. In development. |
-| **[Clinic System](https://github.com/ZiadMaghraby/clinic_system)** | PHP · Laravel · MySQL | Collaborative clinic management for doctors, patients, appointments, and invoices. |
-| **[Recipe App](https://github.com/ZiadMaghraby/recipeApp)** | Java · Android | Recipe browsing, favorites, custom recipes, and shopping lists. |
-| **[Antique Shop](https://github.com/ZiadMaghraby/antique-shop-project)** | React · Bootstrap · Vite | Collaborative storefront with product browsing, cart, checkout flow, and theme switching. |
-| **[Calculator](https://github.com/ZiadMaghraby/calculator)** | C# · .NET | Console calculator with input validation and safe arithmetic operations. |
-
-[Explore all repositories →](https://github.com/ZiadMaghraby?tab=repositories)
-
-### Technical skills
-
-**Backend**  
-.NET · MVC · REST APIs · LINQ · Entity Framework · Dapper · ADO.NET · Laravel / Eloquent · SQL / MySQL · NoSQL
-
-**Frontend**  
-HTML · CSS · React · React Router · Tailwind CSS · Bootstrap · styled-components · Alpine.js · Blade · Vite
-
-**Mobile**  
-Android
-
-**Engineering & delivery**  
-OOP · SOLID · Domain-Driven Design · Microservices · Testing · Azure · Git / GitHub · CI/CD
-
-**Languages**  
-C# · C++ · Java · PHP · JavaScript
-
-### Activity
-
-#### GitHub
-
-<img src="assets/terminal/contributions.svg" width="960" alt="Animated GitHub contribution heatmap with real daily activity, active days, longest streak, and best day; refreshed daily">
-
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/github-dark-d92aab025d80.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/github-light-d92aab025d80.svg" width="795" alt="GitHub contributions and streaks over the last 12 months">
-</picture>
-
-#### [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
-
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-dark-80cab1812e8e.svg">
-<img src="https://raw.githubusercontent.com/ZiadMaghraby/ZiadMaghraby/main/activity-snapshots/monkeytype-light-80cab1812e8e.svg" width="780" alt="ZiadMaghraby's Monkeytype typing activity over the last year">
-</picture>
+| **[StockPilot](https://github.com/ZiadMaghraby/StockPilot)** | Multi-tenant inventory and orders, transactional stock reservations, role-based access, and integration tests. | ASP.NET Core · EF Core |
+| **[NoteForge](https://github.com/ZiadMaghraby/noteforge)** | A workspace with block editing, nested pages, and project databases. In development. | Blazor · SQLite |
+| **[Clarity Clinic](https://github.com/ZiadMaghraby/clarity-clinic)** | Bilingual clinic management: appointments, patient profiles, billing, reports, and audited doctor availability. | PHP |
 
 <details>
-<summary>About the animated profile</summary>
+<summary>More projects</summary>
 
-The terminal portrait and contribution heatmap are self-contained SVGs stored in this repository. Animations play once and respect reduced-motion preferences. GitHub Actions refreshes the heatmap daily using GitHub’s contribution calendar; no external stats-image service is needed.
+- **[Clinic System](https://github.com/ZiadMaghraby/clinic_system)** — Collaborative Laravel/MySQL app for doctors, patients, appointments, and invoices.
+- **[Recipe App](https://github.com/ZiadMaghraby/recipeApp)** — Java/Android app with favorites, custom recipes, and shopping lists.
+- **[Antique Shop](https://github.com/ZiadMaghraby/antique-shop-project)** — Collaborative React storefront with a cart, checkout flow, and theme switching.
+- **[Calculator](https://github.com/ZiadMaghraby/calculator)** — C# console app with input validation and safe arithmetic.
 
-Design inspired by [Avi Vashishta’s animated profile guide](https://www.avivashishta.com/blog/build-animated-github-profile-readme).
+[All repositories →](https://github.com/ZiadMaghraby?tab=repositories)
 
 </details>
 
----
+### Toolbox
 
-[Get in touch](mailto:ziadelmaghraby0@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ziadmaghraby/)
+| Area | Technologies & practices |
+| :--- | :--- |
+| **Core** | C# · ASP.NET Core · REST APIs · LINQ |
+| **Data** | Entity Framework Core · Dapper · ADO.NET · SQL / MySQL |
+| **Web & mobile** | React · Blazor · Laravel · Android |
+| **Engineering** | OOP · SOLID · Domain-Driven Design · Testing · Git · CI/CD |
+
+### GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/contributions-dark.svg">
+  <img src="assets/terminal/contributions-light.svg" width="960" alt="GitHub contribution calendar, total contributions, active days, and streaks. Updated daily.">
+</picture>
+
+<details>
+<summary>Beyond projects · problem solving & typing</summary>
+
+[LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby) · [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="activity-monkeytype-dark.svg">
+  <img src="activity-monkeytype-light.svg" width="780" alt="Monkeytype typing activity over the last year">
+</picture>
+
+<p align="center"><img src="Assets/campfire-transparent.gif" width="170" alt="A quiet pixel-art campsite with a friendly robot"></p>
+
+</details>

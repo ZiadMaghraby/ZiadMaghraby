@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 // Change image URLs only when their content changes, so GitHub requests fresh images.
 let readme = await readFile('README.md', 'utf8');
 await mkdir('activity-snapshots', { recursive: true });
-for (const provider of ['github', 'codeforces', 'leetcode', 'monkeytype']) {
+for (const provider of ['monkeytype']) {
   try {
     const light = await readFile(`activity-${provider}-light.svg`);
     const dark = await readFile(`activity-${provider}-dark.svg`);

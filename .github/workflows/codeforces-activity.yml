@@ -7,11 +7,10 @@ on:
     paths:
       - '.github/workflows/codeforces-activity.yml'
       - 'activity-generator.mjs'
-      - 'github-stats.mjs'
       - 'sync-activity-links.mjs'
       - 'README.md'
       - 'scripts/terminal-profile.mjs'
-      - 'data/portrait.json'
+      - 'data/portrait-vector.json'
 permissions:
   contents: write
 concurrency:
@@ -23,10 +22,6 @@ jobs:
     timeout-minutes: 6
     steps:
       - uses: actions/checkout@v7
-      - name: Synchronize GitHub statistics
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: node github-stats.mjs
       - name: Generate animated terminal profile
         env:
           GITHUB_TOKEN: ${{ github.token }}
