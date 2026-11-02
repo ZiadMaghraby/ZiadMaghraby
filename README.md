@@ -36,11 +36,22 @@
 
 ### Selected projects
 
-| Project | What it does | Built with |
-| :--- | :--- | :--- |
-| **[StockPilot](https://github.com/ZiadMaghraby/StockPilot)** | Multi-tenant inventory and orders, transactional stock reservations, role-based access, and integration tests. | ASP.NET Core · EF Core |
-| **[NoteForge](https://github.com/ZiadMaghraby/noteforge)** | A workspace with block editing, nested pages, and project databases. In development. | Blazor · SQLite |
-| **[Clarity Clinic](https://github.com/ZiadMaghraby/clarity-clinic)** | Bilingual clinic management: appointments, patient profiles, billing, reports, and audited doctor availability. | PHP |
+A closer look at the systems I’m building.
+
+<a href="https://github.com/ZiadMaghraby/StockPilot"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/project-stockpilot-dark.svg">
+  <img src="assets/terminal/project-stockpilot-light.svg" width="960" alt="StockPilot — multi-tenant inventory, transactional stock reservations and integration tests">
+</picture></a>
+
+<a href="https://github.com/ZiadMaghraby/noteforge"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/project-noteforge-dark.svg">
+  <img src="assets/terminal/project-noteforge-light.svg" width="960" alt="NoteForge — block editing, nested pages and databases; in development">
+</picture></a>
+
+<a href="https://github.com/ZiadMaghraby/clarity-clinic"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/project-clarity-dark.svg">
+  <img src="assets/terminal/project-clarity-light.svg" width="960" alt="Clarity Clinic — bilingual clinic operations, appointments and billing">
+</picture></a>
 
 <details>
 <summary>More projects</summary>
@@ -69,8 +80,8 @@
 [LeetCode](https://leetcode.com/u/ZiadMaghraby/) · [Codeforces](https://codeforces.com/profile/ZiadMaghraby) · [Monkeytype](https://monkeytype.com/profile/ZiadMaghraby)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="activity-snapshots/monkeytype-dark-80cab1812e8e.svg">
-  <img src="activity-snapshots/monkeytype-light-80cab1812e8e.svg" width="780" alt="Monkeytype typing activity over the last year">
+  <source media="(prefers-color-scheme: dark)" srcset="activity-monkeytype-dark.svg">
+  <img src="activity-monkeytype-light.svg" width="780" alt="Monkeytype typing activity over the last year">
 </picture>
 
 <p align="center"><img src="Assets/campfire-transparent.gif" width="170" alt="A quiet pixel-art campsite with a friendly robot"></p>

@@ -10,6 +10,7 @@ on:
       - 'sync-activity-links.mjs'
       - 'README.md'
       - 'scripts/terminal-profile.mjs'
+      - 'scripts/project-cards.mjs'
       - 'data/portrait-vector.json'
 permissions:
   contents: write

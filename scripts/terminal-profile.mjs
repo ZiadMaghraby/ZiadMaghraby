@@ -54,13 +54,14 @@ for(const [theme,c] of Object.entries(themes)){
  body+=text(38,187,'Backend .NET / APIs / Data',20,c.muted);
  const cards=[[38,236,current,'CURRENT STREAK',current===1?'day':'days'],[435,236,longest,'LONGEST STREAK',longest===1?'day':'days'],[38,412,active,'ACTIVE DAYS','last year'],[435,412,Math.max(...days.map(d=>d.contributionCount)),'BEST DAY','contributions']];
  for(const [x,y,value,label,unit] of cards){
-  body+='<rect x="'+x+'" y="'+y+'" width="367" height="148" rx="8" fill="none" stroke="'+c.line+'"/>';
-  body+=text(x+22,y+34,label,16,c.muted)+text(x+22,y+90,value,48,c.ink,'font-weight="700"')+text(x+22,y+124,unit,16,c.muted);
+  body+='<rect x="'+x+'" y="'+y+'" width="367" height="148" rx="8" fill="'+c.soft+'" stroke="'+c.line+'"/>';
+  body+=text(x+22,y+34,label,16,c.muted)+text(x+22,y+90,value,48,c.accent,'font-weight="700"')+text(x+22,y+124,unit,16,c.muted);
  }
- body+=text(38,625,'$ cat focus.txt',20,c.accent);
- body+=text(38,672,'Practical problems. Clear structure.',21,c.ink);
- body+=text(38,709,'Reliable data. Maintainable code.',21,c.ink);
- body+=text(38,798,'build / learn / iterate',18,c.muted);
+ body+='<path d="M38 595H802" stroke="'+c.line+'"/>';
+ body+=text(38,643,'$ cat engineering.txt',20,c.accent);
+ body+=text(38,691,'01  Clear API boundaries',23,c.ink);
+ body+=text(38,737,'02  Reliable data workflows',23,c.ink);
+ body+=text(38,783,'03  Testable, maintainable code',23,c.ink);
  await writeFile(out+'/about-'+theme+'.svg',svg(840,880,'Ziad Elmaghraby — backend .NET engineer; contribution streaks and activity statistics.',body));
  body='';
  let lastMonth='';
@@ -79,3 +80,5 @@ for(const [theme,c] of Object.entries(themes)){
  await writeFile(out+'/contributions-'+theme+'.svg',svg(960,201,total+' GitHub contributions in the last year.',body));
 }
 console.log('Rendered reference-style entry: high-density ASCII portrait, about panel, static heatmap; no shadows or fades.');
+
+await import('./project-cards.mjs');
