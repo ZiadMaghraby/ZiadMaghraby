@@ -3,8 +3,8 @@ const out='assets/terminal';
 await mkdir(out,{recursive:true});
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const portrait=JSON.parse(await readFile('data/portrait-vector.json','utf8'));
-const themes={dark:{ink:'#e6edf3',muted:'#9daab8',line:'#30363d',accent:'#72d6bb',soft:'#161b22',grid:['#21262d','#174c43','#267d67','#41b896','#7ce3bd']},light:{ink:'#1f2328',muted:'#596775',line:'#d8dee4',accent:'#167761',soft:'#f6f8fa',grid:['#ebedf0','#b9e6d5','#75c8aa','#369f7c','#176c53']}};
-function svg(w,h,title,body){return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title"><title id="title">${esc(title)}</title><style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.tile{animation:enter .45s ease-out both}@keyframes enter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}.cell{transform-box:fill-box;transform-origin:center;animation:pop .55s ease-out both}.active{animation:pop .55s ease-out both,flash .7s ease-out both}@keyframes pop{0%{opacity:0;transform:scale(.2)}60%{opacity:1;transform:scale(1.1)}100%{opacity:1;transform:scale(1)}}@keyframes flash{0%,45%{filter:brightness(2.4)}100%{filter:brightness(1)}}.bar{transform-box:fill-box;transform-origin:bottom;animation:grow .6s ease-out both}@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}.still{display:none}@media(prefers-reduced-motion:reduce){.tile,.cell,.bar{animation:none!important;opacity:1!important;transform:none!important;filter:none!important}.moving{display:none}.still{display:inline}}</style>${body}</svg>`;}
+const themes={dark:{bg:'#0d1117',ink:'#e6edf3',muted:'#a8b4c2',line:'#303d4b',accent:'#72d6bb',soft:'#18212c',grid:['#212b36','#174c43','#267d67','#41b896','#7ce3bd']},light:{bg:'#ffffff',ink:'#172b3a',muted:'#475569',line:'#cbd5e1',accent:'#087561',soft:'#f3f6fa',grid:['#e5eaf0','#b5dfcd','#74bea3','#318c6a','#146347']}};
+function svg(w,h,title,body){return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title"><title id="title">${esc(title)}</title><style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.tile{animation:enter .45s ease-out both}@keyframes enter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}.cell{transform-box:fill-box;transform-origin:center;animation:pop .55s ease-out both}.active{animation:pop .55s ease-out both}@keyframes pop{0%{opacity:0;transform:scale(.2)}60%{opacity:1;transform:scale(1.1)}100%{opacity:1;transform:scale(1)}}@keyframes flash{0%,45%{filter:brightness(2.4)}100%{filter:brightness(1)}}.bar{transform-box:fill-box;transform-origin:bottom;animation:grow .6s ease-out both}@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}.still{display:none}@media(prefers-reduced-motion:reduce){.tile,.cell,.bar{animation:none!important;opacity:1!important;transform:none!important;filter:none!important}.moving{display:none}.still{display:inline}}</style>${body}</svg>`;}
 const text=(x,y,s,size,color,attrs='')=>`<text x="${x}" y="${y}" font-size="${size}" fill="${color}" ${attrs}>${esc(s)}</text>`;
 if(process.env.GITHUB_TOKEN&&!process.argv.includes('--offline')){
  const response=await fetch('https://api.github.com/graphql',{method:'POST',signal:AbortSignal.timeout(45000),headers:{Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify({query:'query{user(login:"ZiadMaghraby"){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount color}}}}}}'})});
@@ -41,12 +41,12 @@ for(let row=0;row<96;row++){
  }
  ascii.push(line);
 }
-function terminal(c,command){return '<rect x=".5" y=".5" width="839" height="879" rx="10" fill="none" stroke="'+c.line+'"/><path d="M0 36H840" stroke="'+c.line+'"/><circle cx="20" cy="18" r="5" fill="#f07879"/><circle cx="37" cy="18" r="5" fill="#e6bd6b"/><circle cx="54" cy="18" r="5" fill="#52b788"/>'+text(420,23,command,12,c.muted,'text-anchor="middle"');}
+function terminal(c,command){return '<rect x=".5" y=".5" width="839" height="879" rx="10" fill="'+c.bg+'" stroke="'+c.line+'"/><path d="M0 36H840" stroke="'+c.line+'"/><circle cx="20" cy="18" r="5" fill="#f07879"/><circle cx="37" cy="18" r="5" fill="#e6bd6b"/><circle cx="54" cy="18" r="5" fill="#52b788"/>'+text(420,23,command,12,c.muted,'text-anchor="middle"');}
 for(const [theme,c] of Object.entries(themes)){
  let body=terminal(c,'ziad@github: ~ $ ./portrait.sh');
  ascii.forEach((line,i)=>{
-  const delay=i*(5.8/96),duration=5.8/96,y=56+i*8.1;
-  const rowText=text(20,y,line,7.2,c.ink,'xml:space="preserve" textLength="800" lengthAdjust="spacing"');
+  const delay=i*(3.2/96),duration=3.2/96,y=56+i*8.1;
+  const rowText=text(20,y,line,7.2,c.ink,'xml:space="preserve" textLength="800" lengthAdjust="spacing" font-weight="600"');
   body+='<g class="moving"><clipPath id="row'+i+'"><rect x="20" y="'+(y-7)+'" height="8.1" width="0"><animate attributeName="width" from="0" to="800" begin="'+delay.toFixed(3)+'s" dur="'+duration+'s" fill="freeze"/></rect></clipPath><g clip-path="url(#row'+i+')">'+rowText+'</g><rect y="'+(y-6)+'" width="4.444" height="6" fill="'+c.ink+'" opacity="0"><animate attributeName="x" from="20" to="820" begin="'+delay.toFixed(3)+'s" dur="'+duration+'s" fill="freeze"/><set attributeName="opacity" to=".85" begin="'+delay.toFixed(3)+'s"/><set attributeName="opacity" to="0" begin="'+(delay+duration).toFixed(3)+'s"/></rect></g><g class="still">'+rowText+'</g>';
  });
  body+='<path d="M0 837H840" stroke="'+c.line+'"/>'+text(20,860,'ziad@github:~$ whoami  Ziad Elmaghraby',13,c.muted)+'<rect class="moving" x="311" y="848" width="8" height="14" fill="'+c.ink+'"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>';
@@ -77,7 +77,7 @@ for(const [theme,c] of Object.entries(themes)){
   if(n)body+='<g class="tile" style="animation-delay:'+(delay+.6).toFixed(2)+'s">'+text(x+19,795-h,n,13,c.ink,'text-anchor="middle"')+'</g>';
  });
  await writeFile(out+'/about-'+theme+'.svg',svg(840,880,'Ziad Elmaghraby — backend .NET engineer; contribution streaks and activity statistics.',body));
- body='';
+ body='<rect x=".5" y=".5" width="959" height="200" rx="12" fill="'+c.bg+'" stroke="'+c.line+'"/>';
  let lastMonth='';
  calendar.weeks.forEach((week,col)=>{
   const month=week.contributionDays[0].date.slice(0,7);

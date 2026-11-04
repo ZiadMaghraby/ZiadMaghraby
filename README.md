@@ -2,12 +2,9 @@
 
 <h3><code>ziad@github ~ $ ./contributions.sh</code></h3>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/contributions-dark.svg">
-  <img src="assets/terminal/contributions-light.svg" width="860" alt="Ziad's GitHub contribution calendar — updated daily">
-</picture>
+<img src="assets/terminal/contributions-light.svg#gh-light-mode-only" width="860" alt="Ziad's GitHub contribution calendar — updated daily">
+<img src="assets/terminal/contributions-dark.svg#gh-dark-mode-only" width="860" alt="Ziad's GitHub contribution calendar — updated daily">
 
-<br>
 <br>
 
 <h3><code>ziad@github ~ $ whoami</code></h3>
@@ -15,21 +12,16 @@
 <table>
 <tr>
 <td valign="top" width="50%">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/portrait-dark.svg">
-  <img src="assets/terminal/portrait-light.svg" width="420" alt="Ziad Elmaghraby — monochrome ASCII portrait that types itself row by row">
-</picture>
+<img src="assets/terminal/portrait-light.svg#gh-light-mode-only" width="420" alt="Ziad Elmaghraby — monochrome ASCII portrait that types itself row by row">
+<img src="assets/terminal/portrait-dark.svg#gh-dark-mode-only" width="420" alt="Ziad Elmaghraby — monochrome ASCII portrait that types itself row by row">
 </td>
 <td valign="top" width="50%">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal/about-dark.svg">
-  <img src="assets/terminal/about-light.svg" width="420" alt="Backend .NET engineer — current streak, longest streak, active days, and best day">
-</picture>
+<img src="assets/terminal/about-light.svg#gh-light-mode-only" width="420" alt="Backend .NET engineer — current streak, longest streak, active days, and best day">
+<img src="assets/terminal/about-dark.svg#gh-dark-mode-only" width="420" alt="Backend .NET engineer — current streak, longest streak, active days, and best day">
 </td>
 </tr>
 </table>
 
-<br>
 <br>
 
 <h3><code>ziad@github ~ $ ./links.sh</code></h3>
