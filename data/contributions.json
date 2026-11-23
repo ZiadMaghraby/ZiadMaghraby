@@ -1,5 +1,5 @@
 {
-  "totalContributions": 301,
+  "totalContributions": 299,
   "weeks": [
     {
       "contributionDays": [
@@ -2033,6 +2033,11 @@
       "contributionDays": [
         {
           "date": "2026-11-22",
+          "contributionCount": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2026-11-23",
           "contributionCount": 0,
           "color": "#ebedf0"
         }
